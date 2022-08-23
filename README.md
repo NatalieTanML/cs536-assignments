@@ -7,7 +7,7 @@
 ## Logistics
 
 - Instructor: [Muhammad Shahbaz](https://mshahbaz.gitlab.io/)
-- Teaching assistants: 
+- Teaching assistants:  
   - [Sharuna Anandraj](https://www.linkedin.com/in/sharuna-anandraj-74956313b/)
   - [Darwin Kamanuru](https://www.linkedin.com/in/darwin-k/)
   - [K M A Solaiman](https://www.linkedin.com/in/kmasolaiman/)
@@ -24,8 +24,8 @@
   - Monday 3:00-4:00pm, [Zoom](https://purdue-edu.zoom.us/j/95885631906?pwd=NmhyQXp1dCtYQ09TVFBlRzF3UEYvQT09), Muhammad Shahbaz
   - Tuesday 3:30-4:30pm, [Zoom](https://purdue-edu.zoom.us/j/2489213873), Sharuna Anandraj
   - Thursday 4:00-5:00pm, [Zoom](https://purdue-edu.zoom.us/my/darwk), Darwin Kamanuru
-  - Wednesday 2:00-3:00pm, [Zoom](), K M A Solaiman
-  - Friday 2:00-3:00pm, [Zoom](), Kai Ling
+  - Wednesday 3:00-4:00pm, [Zoom](https://purdue-edu.zoom.us/j/93245156625), K M A Solaiman
+  - Friday 2:00-3:00pm, [Zoom](https://purdue-edu.zoom.us/j/92496424285), Kai Ling
 - Practice study observation (PSO)
   - Wednesday 10:30-11:20am, `BRNG B261`, Sharuna Anandraj
   - Thursday 11:30-12:20pm, `REC 302`, Darwin Kamanuru
