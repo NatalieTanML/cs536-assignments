@@ -1,6 +1,6 @@
 <img src="others/images/purdue-cs-logo.jpg" alt="drawing" width="450"/>
 
-# CS 536: Data Communication And Computer Networks (Fall 2022)
+# CS 536: Data Communication and Computer Networks (Fall 2022)
 
 [[_TOC_]]
 
@@ -21,7 +21,7 @@
 - Development environment: [AWS Academy](https://awsacademy.instructure.com/courses/24383/pages/cs-536-data-communication-and-computer-networks-fall-2022)
 - Exam and assignment submissions: [Gradescope](https://www.gradescope.com/courses/417566)
 - Office hours
-  - Monday 3:00-4:00pm, [Zoom](https://purdue-edu.zoom.us/j/95885631906?pwd=NmhyQXp1dCtYQ09TVFBlRzF3UEYvQT09), Muhammad Shahbaz
+  - Wednesday 2:00-3:00pm, [Zoom](https://purdue-edu.zoom.us/j/95885631906?pwd=NmhyQXp1dCtYQ09TVFBlRzF3UEYvQT09), Muhammad Shahbaz
   - Tuesday 3:30-4:30pm, [Zoom](https://purdue-edu.zoom.us/j/2489213873), Sharuna Anandraj
   - Thursday 4:00-5:00pm, [Zoom](https://purdue-edu.zoom.us/my/darwk), Darwin Kamanuru
   - Wednesday 3:00-4:00pm, [Zoom](https://purdue-edu.zoom.us/j/93245156625), K M A Solaiman
@@ -63,9 +63,12 @@ The goals for this course are:
 | :------ | :------ | :------  | :------ |
 | **Week 1** | **ACM SIGCOMM Week** | | |
 | Tue, Thu <br> Aug 23, 25 | [SIGCOMM '22 Conference](https://conferences.sigcomm.org/sigcomm/2022/cfp.html) <br> *No Classes* | &bull; How SDN will Shape Networking ([video](https://www.youtube.com/watch?v=c9-K5O_qYgA)) <br> &bull; [Assignment 0](assignments) and [AWS Academy HowTo](https://gitlab.com/purdue-cs536/fall-2022/public/-/raw/main/assignments/cs536-awsacademy-hotwo.pdf.pdf) | &bull; [How to Read a Paper](https://gitlab.com/purdue-cs536/fall-2022/public/-/raw/main/readings/HowToRead2017.pdf) <br> &bull; [Internet History](https://www.internetsociety.org/internet/history-internet/brief-history-internet/) |
-| **Week 2** | **Network Building Blocks** | | |
-| **Week 3** | **The Network API** | | |
-| **Week 4** | **Local Area Networks** | | |
+| **Week 2** | **Course Overview** | | |
+| Tue <br> Aug 30 | Introduction | | [How to Review a Paper](https://greatresearch.org/2013/10/18/the-paper-reviewing-process/) |
+| Thu <br> Sep 01 | A Brief History of the Internet | | [Research Patterns](https://greatresearch.org/2013/09/20/research-patterns/) (Optional)</li></ul> |
+| **Week 3** | **Network Building Blocks** | | |
+| **Week 4** | **The Network API** | | |
+| **Week 5** | **Local Area Networks** | | |
 
 ## Prerequisites
 
