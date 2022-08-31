@@ -4,7 +4,7 @@
 
 [[_TOC_]]
 
-## Logistics
+## Logistics 
 
 - Instructor: [Muhammad Shahbaz](https://mshahbaz.gitlab.io/)
 - Teaching assistants:  
@@ -25,7 +25,7 @@
   - Tuesday 3:30-4:30pm, [Zoom](https://purdue-edu.zoom.us/j/2489213873), Sharuna Anandraj
   - Thursday 4:00-5:00pm, [Zoom](https://purdue-edu.zoom.us/my/darwk), Darwin Kamanuru
   - Wednesday 3:00-4:00pm, [Zoom](https://purdue-edu.zoom.us/j/93245156625), K M A Solaiman
-  - Friday 2:00-3:00pm, [Zoom](https://purdue-edu.zoom.us/j/92496424285), Kai Ling
+  - Friday 2:30-3:30pm, [Zoom](https://purdue-edu.zoom.us/j/92496424285), Kai Ling
 - Practice study observation (PSO)
   - Wednesday 10:30-11:20am, `BRNG B261`, Sharuna Anandraj
   - Thursday 11:30-12:20pm, `REC 302`, Darwin Kamanuru
@@ -64,7 +64,7 @@ The goals for this course are:
 | **Week 1** | **ACM SIGCOMM Week** | | |
 | Tue, Thu <br> Aug 23, 25 | [SIGCOMM '22 Conference](https://conferences.sigcomm.org/sigcomm/2022/cfp.html) <br> *No Classes* | &bull; How SDN will Shape Networking ([video](https://www.youtube.com/watch?v=c9-K5O_qYgA)) <br> &bull; [Assignment 0](assignments) and [AWS Academy HowTo](https://gitlab.com/purdue-cs536/fall-2022/public/-/raw/main/assignments/cs536-awsacademy-hotwo.pdf.pdf) | &bull; [How to Read a Paper](https://gitlab.com/purdue-cs536/fall-2022/public/-/raw/main/readings/HowToRead2017.pdf) <br> &bull; [Internet History](https://www.internetsociety.org/internet/history-internet/brief-history-internet/) |
 | **Week 2** | **Course Overview** | | |
-| Tue <br> Aug 30 | Introduction | | [How to Review a Paper](https://greatresearch.org/2013/10/18/the-paper-reviewing-process/) |
+| Tue <br> Aug 30 | Introduction ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10576026/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5515024&srcou=599158)) | | [How to Review a Paper](https://greatresearch.org/2013/10/18/the-paper-reviewing-process/) |
 | Thu <br> Sep 01 | A Brief History of the Internet | | [Research Patterns](https://greatresearch.org/2013/09/20/research-patterns/) (Optional)</li></ul> |
 | **Week 3** | **Network Building Blocks** | | |
 | **Week 4** | **The Network API** | | |
