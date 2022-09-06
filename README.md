@@ -66,9 +66,10 @@ The goals for this course are:
 | **Week 2** | **Course Overview** | | |
 | Tue <br> Aug 30 | Introduction ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10576026/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5515024&srcou=599158)) | | [How to Review a Paper](https://greatresearch.org/2013/10/18/the-paper-reviewing-process/) |
 | Thu <br> Sep 01 | A Brief History of the Internet ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10597769/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5536854&srcou=599158)) | &bull; [Paper Review 1](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/cerf74-717197892?assignmentId=dWgTv2F8LDcnNnAWB&part=1) `due Sep 13` | [Research Patterns](https://greatresearch.org/2013/09/20/research-patterns/) (Optional)</li></ul> |
-| **Week 3** | **Network Building Blocks** | | |
-| **Week 4** | **The Network API** | | |
-| **Week 5** | **Local Area Networks** | | |
+| **Week 3** | **End Host and Home Networks** | | |
+| Tue <br> Sep 06 | Layering and Protocols | Team selection for the course project `due Sep 11` | [End-to-End Arguments](https://gitlab.com/purdue-cs536/fall-2022/public/-/raw/main/readings/e2eArgument84.pdf) |
+| Thu <br> Sep 08 | Sockets: The Network API | | |
+| **Week 4** | **Wide Area Networks** | | |
 
 ## Prerequisites
 
@@ -176,6 +177,7 @@ The final report will be in the form of a paper written in Latex and submitted a
 
 ### Deliverables
 
+- Team selection `due Sep 11`
 - Project proposal `TBD`
 - Project report `TBD`
 - Blogpost and/or YouTube video (extra credit) `TBD`
