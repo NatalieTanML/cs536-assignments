@@ -66,10 +66,12 @@ The goals for this course are:
 | **Week 2** | **Course Overview** | | |
 | Tue <br> Aug 30 | Introduction ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10576026/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5515024&srcou=599158)) | | &bull; [How to Review a Paper](https://greatresearch.org/2013/10/18/the-paper-reviewing-process/) |
 | Thu <br> Sep 01 | A Brief History of the Internet ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10597769/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5536854&srcou=599158)) | &bull; [Paper Review 1](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/cerf74-717197892?assignmentId=dWgTv2F8LDcnNnAWB&part=1) `due Sep 13` | &bull; [Research Patterns](https://greatresearch.org/2013/09/20/research-patterns/) (Optional)</li></ul> |
-| **Week 3** | **End Host and Home Networks** | | |
+| **Week 3** | **End Host and Home Networks I** | | |
 | Tue <br> Sep 06 | Layering and Protocols I ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10612215/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5553831&srcou=599158)) | &bull; Team selection for the course project `due Sep 11` | &bull; [End-to-End Arguments](https://gitlab.com/purdue-cs536/fall-2022/public/-/raw/main/readings/e2eArgument84.pdf) |
-| Thu <br> Sep 08 | Layering and Protocols II ([video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5563588&srcou=599158)) | &bull; Discuss project ideas and a demo of [Assignment 0](assignments) | |
-| **Week 4** | **Wide Area Networks** | | |
+| Thu <br> Sep 08 | Layering and Protocols II ([video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5563588&srcou=599158)) | &bull; Discuss project ideas and a demo of [Assignment 0](assignments) | &bull; PD: [1.3 (Architecture)](https://book.systemsapproach.org/foundation/architecture.html) |
+| **Week 4** | **End Host and Home Networks II** | | |
+| Tue <br> Sep 13 | Sockets: The Network API | &bull; [Assignment 1](assignments/assignment1) `due Sep 27` | &bull; PD: [1.4 (Software)](https://book.systemsapproach.org/foundation/software.html) <br> &bull; [Beej's Guide](http://beej.us/guide/bgnet/) (Optional) |
+| Thu <br> Sep 15 | Transport: Process-to-Process Communication | | &bull; PD: [2.5 (Reliable Transmission)](https://book.systemsapproach.org/direct/reliable.html) <br> &bull; PD: [5.1 - 5.2 (UDP, TCP)](https://book.systemsapproach.org/e2e.html) |
 
 ## Prerequisites
 
@@ -90,7 +92,7 @@ This course assumes that students have a basic understanding of data structures 
 ## Programming Assignments
 
 - [Assignment 0](assignments/assignment0): Virtual networks using Mininet and ONOS `not graded`
-- Assignment 1 `TBD`
+- [Assignment 1](assignments/assignment1): File and Message Transmission using Sockets and 3-Way Handshake `due Sep 27`
 - Assignment 2 `TBD`
 - Assignment 3 `TBD`
 
