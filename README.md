@@ -70,8 +70,8 @@ The goals for this course are:
 | Tue <br> Sep 06 | Layering and Protocols I ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10612215/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5553831&srcou=599158)) | &bull; Team selection for the course project `due Sep 11` | &bull; [End-to-End Arguments](https://gitlab.com/purdue-cs536/fall-2022/public/-/raw/main/readings/e2eArgument84.pdf) |
 | Thu <br> Sep 08 | Layering and Protocols II ([video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5563588&srcou=599158)) | &bull; Discuss project ideas and a demo of [Assignment 0](assignments) | &bull; PD: [1.3 (Architecture)](https://book.systemsapproach.org/foundation/architecture.html) |
 | **Week 4** | **End Host and Home Networks II** | | |
-| Tue <br> Sep 13 | Sockets: The Network API ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10640644/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5584904&srcou=599158)) | &bull; [Assignment 1](assignments/assignment1) `due Sep 27` | &bull; PD: [1.4 (Software)](https://book.systemsapproach.org/foundation/software.html) <br> &bull; [Beej's Guide](http://beej.us/guide/bgnet/) (Optional) |
-| Thu <br> Sep 15 | Transport: Process-to-Process Communication | | &bull; PD: [2.5 (Reliable Transmission)](https://book.systemsapproach.org/direct/reliable.html) <br> &bull; PD: [5.1 - 5.2 (UDP, TCP)](https://book.systemsapproach.org/e2e.html) |
+| Tue <br> Sep 13 | Sockets: The Network API ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10640644/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5584904&srcou=599158)) | &bull; [Assignment 1](assignments/assignment1) `due Sep 30` | &bull; PD: [1.4 (Software)](https://book.systemsapproach.org/foundation/software.html) <br> &bull; [Beej's Guide](http://beej.us/guide/bgnet/) (Optional) |
+| Thu <br> Sep 15 | Transport: Process-to-Process Communication | &bull; [Paper Review 2](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/bgpstability98-320363343?assignmentId=QtBqvnHNhZf8LWwWK&part=1) `due Sep 27` | &bull; PD: [2.5 (Reliable Transmission)](https://book.systemsapproach.org/direct/reliable.html) <br> &bull; PD: [5.1 - 5.2 (UDP, TCP)](https://book.systemsapproach.org/e2e.html) |
 
 ## Prerequisites
 
@@ -92,7 +92,7 @@ This course assumes that students have a basic understanding of data structures 
 ## Programming Assignments
 
 - [Assignment 0](assignments/assignment0): Virtual networks using Mininet and ONOS `not graded`
-- [Assignment 1](assignments/assignment1): File and Message Transmission using Sockets and 3-Way Handshake `due Sep 27`
+- [Assignment 1](assignments/assignment1): File and Message Transmission using Sockets and 3-Way Handshake `due Sep 30`
 - Assignment 2 `TBD`
 - Assignment 3 `TBD`
 
@@ -108,7 +108,7 @@ Grades for your class participation and paper reviews will be determined based o
 
 ### Reading list
 - [Paper 1: A Protocol for Packet Network Intercommunication](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/cerf74-717197892?assignmentId=dWgTv2F8LDcnNnAWB&part=1) `due Sep 13`
-- Paper 2 `TBD`
+- [Paper 2: Internet Routing Instability](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/bgpstability98-320363343?assignmentId=QtBqvnHNhZf8LWwWK&part=1) `due Sep 27`
 - Paper 3 `TBD`
 - Paper 4 `TBD`
 - Paper 5 `TBD`
@@ -180,7 +180,7 @@ The final report will be in the form of a paper written in Latex and submitted a
 ### Deliverables
 
 - Team selection `due Sep 11`
-- Project proposal `TBD`
+- Project proposal `due Oct 04`
 - Project report `TBD`
 - Blogpost and/or YouTube video (extra credit) `TBD`
 

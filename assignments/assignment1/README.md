@@ -4,7 +4,7 @@
 
 In this assignment, we will be building a file-/message-transmission client-server application using Sockets and a low-level implementation of TCP's 3-way handshake protocol (3WH).
 
-> **NOTE:** You may work in a team of **TWO** if you would like (this is strongly suggested by not required; grading will only be based on your submission regardless of the size of the team).
+> **NOTE:** You may work in a team of **TWO** if you would like (this is strongly suggested but not required; grading will only be based on your submission regardless of the size of the team).
 
 Sockets are the standard way to write programs that communicate over a network. While originally developed for Unix computers programmed in C, the socket abstraction is general and not tied to any specific operating system or programming language. This allows programmers to use the socket mental model to write correct network programs in many contexts.
 
