@@ -62,7 +62,7 @@ The goals for this course are:
 | Date    | Topics  | Notes | Readings |
 | :------ | :------ | :------  | :------ |
 | **Week 1** | **ACM SIGCOMM Week** | | |
-| Tue, Thu <br> Aug 23, 25 | [SIGCOMM '22 Conference](https://conferences.sigcomm.org/sigcomm/2022/cfp.html) <br> *No Classes* | &bull; How SDN will Shape Networking ([video](https://www.youtube.com/watch?v=c9-K5O_qYgA)) <br> &bull; [Assignment 0](assignments) and [AWS Academy HowTo](https://gitlab.com/purdue-cs536/fall-2022/public/-/raw/main/assignments/cs536-awsacademy-hotwo.pdf.pdf) | &bull; [How to Read a Paper](https://gitlab.com/purdue-cs536/fall-2022/public/-/raw/main/readings/HowToRead2017.pdf) <br> &bull; [Internet History](https://www.internetsociety.org/internet/history-internet/brief-history-internet/) |
+| Tue, Thu <br> Aug 23, 25 | *[SIGCOMM '22 Conference](https://conferences.sigcomm.org/sigcomm/2022/cfp.html)* <br> No Classes | &bull; How SDN will Shape Networking ([video](https://www.youtube.com/watch?v=c9-K5O_qYgA)) <br> &bull; [Assignment 0](assignments) and [AWS Academy HowTo](https://gitlab.com/purdue-cs536/fall-2022/public/-/raw/main/assignments/cs536-awsacademy-hotwo.pdf.pdf) | &bull; [How to Read a Paper](https://gitlab.com/purdue-cs536/fall-2022/public/-/raw/main/readings/HowToRead2017.pdf) <br> &bull; [Internet History](https://www.internetsociety.org/internet/history-internet/brief-history-internet/) |
 | **Week 2** | **Course Overview** | | |
 | Tue <br> Aug 30 | Introduction ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10576026/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5515024&srcou=599158)) | | &bull; [How to Review a Paper](https://greatresearch.org/2013/10/18/the-paper-reviewing-process/) |
 | Thu <br> Sep 01 | A Brief History of the Internet ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10597769/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5536854&srcou=599158)) | &bull; [Paper Review 1](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/cerf74-717197892?assignmentId=dWgTv2F8LDcnNnAWB&part=1) `due Sep 13` | &bull; [Research Patterns](https://greatresearch.org/2013/09/20/research-patterns/) (Optional)</li></ul> |
@@ -73,20 +73,20 @@ The goals for this course are:
 | Tue <br> Sep 13 | Sockets: The Network Interface ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10640644/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5584904&srcou=599158)) | &bull; Course Project Proposal `due Oct 04` <br> &bull; [Assignment 1](assignments/assignment1) `due Sep 30` | &bull; PD: [1.4 (Software)](https://book.systemsapproach.org/foundation/software.html) <br> &bull; [Beej's Guide](http://beej.us/guide/bgnet/) (Optional) |
 | Thu <br> Sep 15 | Transport: Process-to-Process Communication ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10659890/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5607038&srcou=599158)) | &bull; [Paper Review 2](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/bgpstability98-320363343?assignmentId=QtBqvnHNhZf8LWwWK&part=1) `due Sep 27` | &bull; PD: [2.5 (Reliable Transmission)](https://book.systemsapproach.org/direct/reliable.html) <br> &bull; PD: [5.1 - 5.2 (UDP, TCP)](https://book.systemsapproach.org/e2e.html) |
 | **Week 5** | **Local Area Networks** | | |
-| Tue <br> Sep 20 | | | |
+| Tue <br> Sep 20 | Direct Links: The Wire Interface | | &bull; PD: [2.1 - 2.6 (Technology, Encoding, Framing, ...)](https://book.systemsapproach.org/direct.html) |
 | Thu <br> Sep 22 | | | |
 | **Week 6** | | | |
 | Tue <br> Sep 27 | | | |
 | Thu <br> Sep 29 | Guest Lecture: TBD by [Ben Pfaff](https://research.vmware.com/researchers/ben-pfaff) | | |
 | **Week 7** | | | |
 | Tue <br> Oct 04 | | | |
-| Thu <br> Oct 06 | | | |
+| Thu <br> Oct 06 | Guest Lecture: TBD by [Bob Lantz](http://www-cs-students.stanford.edu/~rlantz/) | | |
 | **Week 8** | | | |
-| Tue <br> Oct 11 | | | |
-| Thu <br> Oct 13 | | | |
+| Tue <br> Oct 11 | *October Break* <br> No Class | | |
+| Thu <br> Oct 13 | *Midterm Exam* | | |
 | **Week 9** | | | |
-| Tue <br> Oct 18 | | | |
-| Thu <br> Oct 20 | | | |
+| Tue <br> Oct 18 | Guest Lecture: TBD by [Ajay Thakur](https://www.linkedin.com/in/ajaylthakur/) | | |
+| Thu <br> Oct 20 | Guest Lecture: TBD by [Vladimir Gurevich](https://www.linkedin.com/in/vladimir-gurevich-63b887/) | | |
 | **Week 10** | | | |
 | Tue <br> Oct 25 | | | |
 | Thu <br> Oct 27 | Guest Lecture: TBD by [Amedeo Sapio](https://www.linkedin.com/in/amedeosapio/) | | |
@@ -101,12 +101,12 @@ The goals for this course are:
 | Thu <br> Nov 17 | Guest Lecture: TBD by [Mihai Budiu](https://research.vmware.com/researchers/mihai-budiu) | | |
 | **Week 14** | | | |
 | Tue <br> Nov 22 | | | |
-| Thu <br> Nov 24 | Thanksgiving Holiday <br> *No Classes* | | |
+| Thu <br> Nov 24 | *Thanksgiving Holiday* <br> No Class | | |
 | **Week 15** | | | |
 | Tue <br> Nov 29 | | | |
 | Thu <br> Dec 01 | | | |
 | **Week 16** | | | |
-| Tue <br> Dec 06 | | | |
+| Tue <br> Dec 06 | Guest Lecture: TBD by [Daniel Firestone](https://www.microsoft.com/en-us/research/people/fstone/) | | |
 | Thu <br> Dec 08 | | | |
 
 ## Prerequisites
@@ -140,9 +140,9 @@ Starting Week 3, we will be reading and discussing **six** research papers on to
 
 Grades for your class participation and paper reviews will be determined based on attendance and, more importantly, substantial contributions to paper discussions both on Perusall and in class.
 
-> **Note:** What we expect you to know and prepare before each discussion is [here](readings).
-
-> **Paper Summary Submission:** Submit via [Perusall Notes](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/_/notes) and share it with your respective PSO TA and the Professor.
+> **Note:** 
+> - What we expect you to know and prepare before each discussion is [here](readings).
+> - Submit paper summaries via [Perusall Notes](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/_/notes) and share it with your respective PSO TA and the Professor.
 
 ### Reading list
 - [Paper 1: A Protocol for Packet Network Intercommunication](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/cerf74-717197892?assignmentId=dWgTv2F8LDcnNnAWB&part=1) `due Sep 13`
@@ -155,8 +155,10 @@ Grades for your class participation and paper reviews will be determined based o
 ## Midterm and Final Exams
 There will be one midterm and a final exam based on course content (lectures, assignments, and paper readings).
 
-- Midterm Exam `TBD`
+- Midterm Exam `on Oct 13`
 - Final Exam `TBD`
+
+> Format: in class, open book
 
 ## Course Project
 
