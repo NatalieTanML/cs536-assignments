@@ -142,6 +142,8 @@ Grades for your class participation and paper reviews will be determined based o
 
 > **Note:** What we expect you to know and prepare before each discussion is [here](readings).
 
+> **Paper Summary Submission:** Submit via [Perusall Notes](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/_/notes) and share it with your respective PSO TA and the Professor.
+
 ### Reading list
 - [Paper 1: A Protocol for Packet Network Intercommunication](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/cerf74-717197892?assignmentId=dWgTv2F8LDcnNnAWB&part=1) `due Sep 13`
 - [Paper 2: Internet Routing Instability](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/bgpstability98-320363343?assignmentId=QtBqvnHNhZf8LWwWK&part=1) `due Sep 27`
