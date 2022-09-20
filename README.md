@@ -66,12 +66,48 @@ The goals for this course are:
 | **Week 2** | **Course Overview** | | |
 | Tue <br> Aug 30 | Introduction ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10576026/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5515024&srcou=599158)) | | &bull; [How to Review a Paper](https://greatresearch.org/2013/10/18/the-paper-reviewing-process/) |
 | Thu <br> Sep 01 | A Brief History of the Internet ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10597769/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5536854&srcou=599158)) | &bull; [Paper Review 1](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/cerf74-717197892?assignmentId=dWgTv2F8LDcnNnAWB&part=1) `due Sep 13` | &bull; [Research Patterns](https://greatresearch.org/2013/09/20/research-patterns/) (Optional)</li></ul> |
-| **Week 3** | **End Host and Home Networks I** | | |
+| **Week 3** | **Network Building Blocks** | | |
 | Tue <br> Sep 06 | Layering and Protocols I ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10612215/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5553831&srcou=599158)) | &bull; Team selection for the course project `due Sep 11` | &bull; [End-to-End Arguments](https://gitlab.com/purdue-cs536/fall-2022/public/-/raw/main/readings/e2eArgument84.pdf) |
 | Thu <br> Sep 08 | Layering and Protocols II ([video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5563588&srcou=599158)) | &bull; Discuss project ideas and a demo of [Assignment 0](assignments) | &bull; PD: [1.3 (Architecture)](https://book.systemsapproach.org/foundation/architecture.html) |
-| **Week 4** | **End Host and Home Networks II** | | |
-| Tue <br> Sep 13 | Sockets: The Network API ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10640644/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5584904&srcou=599158)) | &bull; [Assignment 1](assignments/assignment1) `due Sep 30` | &bull; PD: [1.4 (Software)](https://book.systemsapproach.org/foundation/software.html) <br> &bull; [Beej's Guide](http://beej.us/guide/bgnet/) (Optional) |
-| Thu <br> Sep 15 | Transport: Process-to-Process Communication | &bull; [Paper Review 2](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/bgpstability98-320363343?assignmentId=QtBqvnHNhZf8LWwWK&part=1) `due Sep 27` | &bull; PD: [2.5 (Reliable Transmission)](https://book.systemsapproach.org/direct/reliable.html) <br> &bull; PD: [5.1 - 5.2 (UDP, TCP)](https://book.systemsapproach.org/e2e.html) |
+| **Week 4** | **The Network API** | | |
+| Tue <br> Sep 13 | Sockets: The Network Interface ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10640644/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5584904&srcou=599158)) | &bull; Course Project Proposal `due Oct 04` <br> &bull; [Assignment 1](assignments/assignment1) `due Sep 30` | &bull; PD: [1.4 (Software)](https://book.systemsapproach.org/foundation/software.html) <br> &bull; [Beej's Guide](http://beej.us/guide/bgnet/) (Optional) |
+| Thu <br> Sep 15 | Transport: Process-to-Process Communication ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10659890/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5607038&srcou=599158)) | &bull; [Paper Review 2](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/bgpstability98-320363343?assignmentId=QtBqvnHNhZf8LWwWK&part=1) `due Sep 27` | &bull; PD: [2.5 (Reliable Transmission)](https://book.systemsapproach.org/direct/reliable.html) <br> &bull; PD: [5.1 - 5.2 (UDP, TCP)](https://book.systemsapproach.org/e2e.html) |
+| **Week 5** | **Local Area Networks** | | |
+| Tue <br> Sep 20 | | | |
+| Thu <br> Sep 22 | | | |
+| **Week 6** | | | |
+| Tue <br> Sep 27 | | | |
+| Thu <br> Sep 29 | Guest Lecture: TBD by [Ben Pfaff](https://research.vmware.com/researchers/ben-pfaff) | | |
+| **Week 7** | | | |
+| Tue <br> Oct 04 | | | |
+| Thu <br> Oct 06 | | | |
+| **Week 8** | | | |
+| Tue <br> Oct 11 | | | |
+| Thu <br> Oct 13 | | | |
+| **Week 9** | | | |
+| Tue <br> Oct 18 | | | |
+| Thu <br> Oct 20 | | | |
+| **Week 10** | | | |
+| Tue <br> Oct 25 | | | |
+| Thu <br> Oct 27 | Guest Lecture: TBD by [Amedeo Sapio](https://www.linkedin.com/in/amedeosapio/) | | |
+| **Week 11** | | | |
+| Tue <br> Nov 01 | | | |
+| Thu <br> Nov 03 | | | |
+| **Week 12** | | | |
+| Tue <br> Nov 08 | Guest Lecture: TBD by [Radhika Mysore](https://research.vmware.com/researchers/radhika-niranjan) | | |
+| Thu <br> Nov 10 | Guest Lecture: TBD by [Sihang Liu](https://www.sihangliu.com/) | | |
+| **Week 13** | | | |
+| Tue <br> Nov 15 | | | |
+| Thu <br> Nov 17 | Guest Lecture: TBD by [Mihai Budiu](https://research.vmware.com/researchers/mihai-budiu) | | |
+| **Week 14** | | | |
+| Tue <br> Nov 22 | | | |
+| Thu <br> Nov 24 | Thanksgiving Holiday <br> *No Classes* | | |
+| **Week 15** | | | |
+| Tue <br> Nov 29 | | | |
+| Thu <br> Dec 01 | | | |
+| **Week 16** | | | |
+| Tue <br> Dec 06 | | | |
+| Thu <br> Dec 08 | | | |
 
 ## Prerequisites
 
