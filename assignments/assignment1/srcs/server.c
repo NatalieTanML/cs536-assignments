@@ -19,8 +19,8 @@
 
 /*
  * server.c
- * Name:
- * PUID:
+ * Name:  Ming Li, Natalie Tan
+ * PUID:  0035368455
  */
 
 #include <stdio.h>
@@ -44,6 +44,73 @@
  */
 int server(char *server_port)
 {
+  char buf[RECV_BUFFER_SIZE];
+  int numbytes;
+  int sockfd, connfd;
+  struct addrinfo hints, *servinfo, *p;
+
+  memset(&hints, 0, sizeof hints);
+  hints.ai_family = AF_UNSPEC; 
+  hints.ai_socktype = SOCK_STREAM; 
+  hints.ai_flags = AI_PASSIVE; 
+
+  if (getaddrinfo(NULL, server_port, &hints, &servinfo) != 0) 
+  {
+    fprintf(stderr, "server: getaddrinfo\n");
+    return 1;
+  }
+
+  for (p = servinfo; p != NULL; p = p->ai_next) 
+  {
+    if ((sockfd = socket(p->ai_family, p->ai_socktype, p->ai_protocol)) == -1) 
+    {
+      continue;
+    }
+
+    if (bind(sockfd, p->ai_addr, p->ai_addrlen) == -1) 
+    {
+      close(sockfd);
+      continue;
+    }
+
+      break;
+  }
+
+  if (p == NULL) 
+  {
+    fprintf(stderr, "server: bind failed\n");
+    return 1;
+  }
+
+  freeaddrinfo(servinfo);
+
+  if (listen(sockfd, RECV_BUFFER_SIZE) == -1) 
+  {
+    fprintf(stderr, "server: listen failed\n");
+    return 1;
+  }
+
+  while (1) {
+    struct sockaddr addr;
+    socklen_t addrlen;
+
+    connfd = accept(sockfd, &addr, &addrlen);
+    if (connfd == -1)
+    {
+      continue;
+    }
+
+    numbytes = recv(connfd, buf, RECV_BUFFER_SIZE, 0);
+    while (numbytes > 0) 
+    {
+      fwrite(buf, numbytes, 1, stdout);
+      fflush(stdout);
+      numbytes = recv(connfd, buf, RECV_BUFFER_SIZE, 0);
+    }
+
+    close(connfd);
+  }
+
   return 0;
 }
 

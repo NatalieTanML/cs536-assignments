@@ -19,8 +19,8 @@
 
 /*
  * client.c
- * Name:
- * PUID:
+ * Name:  Ming Li, Natalie Tan
+ * PUID:  0035368455
  */
 
 #include <stdio.h>
@@ -42,6 +42,57 @@
  */
 int client(char *server_ip, char *server_port)
 {
+  char buf[SEND_BUFFER_SIZE];
+  int sockfd, numbytes;
+  struct addrinfo hints, *servinfo, *p;
+
+  memset(&hints, 0, sizeof hints);
+  hints.ai_family = AF_UNSPEC;
+  hints.ai_socktype = SOCK_STREAM;
+
+  // get server address info
+  if (getaddrinfo(server_ip, server_port, &hints, &servinfo) != 0) 
+  {
+      fprintf(stderr, "client: getaddrinfo\n");
+      return 1;
+  }
+
+  for (p = servinfo; p != NULL; p = p->ai_next) 
+  {
+    if ((sockfd = socket(p->ai_family, p->ai_socktype, p->ai_protocol)) == -1) 
+    {
+      continue;
+    }
+
+    if (connect(sockfd, p->ai_addr, p->ai_addrlen) == -1) 
+    {
+      close(sockfd);
+      continue;
+    }
+
+    break;
+  }
+
+  if (p == NULL)
+  {
+    fprintf(stderr, "client: connect failed\n");
+    return 1;
+  }
+
+  freeaddrinfo(servinfo);
+  
+  numbytes = fread(buf, 1, SEND_BUFFER_SIZE, stdin);
+  while (numbytes > 0) 
+  {
+    if (send(sockfd, buf, numbytes, 0) == -1) 
+    {
+      fprintf(stderr, "client: send failed\n");
+      close(sockfd);
+      return 1;
+    }
+    numbytes = fread(buf, 1, SEND_BUFFER_SIZE, stdin);
+  }
+
   return 0;
 }
 
