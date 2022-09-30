@@ -77,7 +77,7 @@ The goals for this course are:
 | Thu <br> Sep 22 | Indirect Links: Internetworking (L2/L3) ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10682082/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5628928&srcou=599158)) | | &bull; PD: [3 (Internetworking)](https://book.systemsapproach.org/internetworking.html) |
 | **Week 6** | **Software Defined Networks** | | |
 | Tue <br> Sep 27 | Network Abstractions and Virtualization ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10707462/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5655913&srcou=599158)) | | &bull; SDN: [3: Basic Architecture](https://sdn.systemsapproach.org/arch.html) |
-| Thu <br> Sep 29 | Guest Lecture: Open vSwitch Design and the Future by [Ben Pfaff](https://research.vmware.com/researchers/ben-pfaff) ([video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5655915&srcou=599158)) | | &bull; [Open vSwitch (NSDI '15)](https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-pfaff.pdf) |
+| Thu <br> Sep 29 | Guest Lecture: Open vSwitch Design and the Future by [Ben Pfaff](https://research.vmware.com/researchers/ben-pfaff) ([video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5655915&srcou=599158)) | &bull; [Paper Review 3](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/queue14-709400902?assignmentId=nCeh6yvSMs825XTjE&part=1) `due Oct 13` | &bull; [Open vSwitch (NSDI '15)](https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-pfaff.pdf) |
 | **Week 7** | | | |
 | Tue <br> Oct 04 | | | |
 | Thu <br> Oct 06 | Guest Lecture: TBD by [Bob Lantz](http://www-cs-students.stanford.edu/~rlantz/) | | |
@@ -147,7 +147,7 @@ Grades for your class participation and paper reviews will be determined based o
 ### Reading list
 - [Paper 1: A Protocol for Packet Network Intercommunication](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/cerf74-717197892?assignmentId=dWgTv2F8LDcnNnAWB&part=1) `due Sep 13`
 - [Paper 2: Internet Routing Instability](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/bgpstability98-320363343?assignmentId=QtBqvnHNhZf8LWwWK&part=1) `due Sep 27`
-- Paper 3 `TBD`
+- [Paper 3: The Road to SDN: An Intellectual History of Programmable Networks](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/queue14-709400902?assignmentId=nCeh6yvSMs825XTjE&part=1) `due Oct 13`
 - Paper 4 `TBD`
 - Paper 5 `TBD`
 - Paper 6 `TBD`
