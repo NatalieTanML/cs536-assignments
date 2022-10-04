@@ -77,10 +77,10 @@ The goals for this course are:
 | Thu <br> Sep 22 | Indirect Links: Internetworking (L2/L3) ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10682082/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5628928&srcou=599158)) | | &bull; PD: [3 (Internetworking)](https://book.systemsapproach.org/internetworking.html) |
 | **Week 6** | **Software Defined Networks** | | |
 | Tue <br> Sep 27 | Network Abstractions and Virtualization ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10707462/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5655913&srcou=599158)) | | &bull; SDN: [3: Basic Architecture](https://sdn.systemsapproach.org/arch.html) |
-| Thu <br> Sep 29 | Guest Lecture: Open vSwitch Design and the Future by [Ben Pfaff](https://research.vmware.com/researchers/ben-pfaff) ([video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5655915&srcou=599158)) | &bull; [Paper Review 3](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/queue14-709400902?assignmentId=nCeh6yvSMs825XTjE&part=1) `due Oct 13` | &bull; [Open vSwitch (NSDI '15)](https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-pfaff.pdf) |
-| **Week 7** | | | |
-| Tue <br> Oct 04 | | | |
-| Thu <br> Oct 06 | Guest Lecture: TBD by [Bob Lantz](http://www-cs-students.stanford.edu/~rlantz/) | | |
+| Thu <br> Sep 29 | Guest Lecture: Open vSwitch Design and the Future by [Ben Pfaff](https://research.vmware.com/researchers/ben-pfaff) ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10741628/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5655915&srcou=599158)) | &bull; [Paper Review 3](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/queue14-709400902?assignmentId=nCeh6yvSMs825XTjE&part=1) `due Oct 13` | &bull; [Open vSwitch (NSDI '15)](https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-pfaff.pdf) |
+| **Week 7** | **Network Addressing and Configuration** | | |
+| Tue <br> Oct 04 | Flat vs Classful vs Classless Addressing | | &bull; PD: [3.3.3 - 3.3.9 (Addressing, DHCP ...)](https://book.systemsapproach.org/internetworking.html) |
+| Thu <br> Oct 06 | Guest Lecture: Mininet: Fun with Networking and (Lightweight) Virtualization by [Bob Lantz](http://www-cs-students.stanford.edu/~rlantz/) | | |
 | **Week 8** | | | |
 | Tue <br> Oct 11 | *October Break* <br> No Class | | |
 | Thu <br> Oct 13 | | | |
