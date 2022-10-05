@@ -50,22 +50,23 @@ class Client3WH:
         """
 
         ### BEGIN: ADD YOUR CODE HERE ... ###
+
+        if Raw in pkt: # data
+            self.next_ack += len(pkt[Raw])
+            ACK = TCP(sport=self.sport, dport=self.dport, flags="A", seq=self.next_seq, ack=self.next_ack)
+            send(self.ip/ACK)
+
+        elif FIN in pkt: # FIN
+            FIN = TCP(sport=self.sport, dport=self.dport, flags="FA", seq=self.next_seq, ack=self.next_ack)
+            FINACK = sr1(self.ip/FIN)
+            self.next_seq += 1
+            self.next_ack = FINACK[TCP].seq + 1
+            ACK = TCP(sport=self.sport, dport=self.dport, flags="A", seq=self.next_seq, ack=self.next_ack)
+            send(self.ip/ACK)
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        elif FINACK in pkt: # FINACK
+            ACK = TCP(sport=self.sport, dport=self.dport, flags="A", seq=self.next_seq, ack=self.next_ack)
+            send(self.ip/ACK)
 
         ### END: ADD YOUR CODE HERE ... #####
 
@@ -79,25 +80,13 @@ class Client3WH:
 
         ### BEGIN: ADD YOUR CODE HERE ... ###
         
+        SYN = TCP(sport=self.sport, dport=self.dport, flags="S", seq=self.next_seq)
+        SYNACK = sr1(self.ip/SYN)
+        self.next_seq += 1
+        self.next_ack = SYNACK[TCP].seq + 1
+        ACK = TCP(sport=self.sport, dport=self.dport, flags="A", seq=self.next_seq, ack=self.next_ack)
+        send(self.ip/ACK)
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
         ### END: ADD YOUR CODE HERE ... #####
 
         self.connected = True
@@ -114,16 +103,12 @@ class Client3WH:
 
         ### BEGIN: ADD YOUR CODE HERE ... ###
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        FIN = TCP(sport=self.sport, dport=self.dport, flags="FA", seq=self.next_seq, ack=self.next_ack)
+        FINACK = sr1(self.ip/FIN)
+        self.next_seq += 1
+        self.next_ack = FINACK[TCP].seq + 1
+        ACK = TCP(sport=self.sport, dport=self.dport, flags="A", seq=self.next_seq, ack=self.next_ack)
+        send(self.ip/ACK)
 
         ### END: ADD YOUR CODE HERE ... #####
 
@@ -137,18 +122,10 @@ class Client3WH:
         """
 
         ### BEGIN: ADD YOUR CODE HERE ... ###
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+
+        pkt = self.ip / TCP(sport=self.sport, dport=self.dport, flags="PA", seq=self.next_seq, ack=self.next_ack) / payload
+        self.next_seq += len(pkt[Raw])
+        ACK = sr1(pkt)
 
         ### END: ADD YOUR CODE HERE ... #####
 
