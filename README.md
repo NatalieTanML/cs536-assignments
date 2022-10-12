@@ -81,9 +81,9 @@ The goals for this course are:
 | **Week 7** | **Network Addressing and Configuration** | | |
 | Tue <br> Oct 04 | Flat vs Classful vs Classless Addressing ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10741630/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5690310&srcou=599158)) | | &bull; PD: [3.3.3 - 3.3.9 (Addressing, DHCP ...)](https://book.systemsapproach.org/internetworking.html) |
 | Thu <br> Oct 06 | Guest Lecture: Mininet: Fun with Networking and (Lightweight) Virtualization by [Bob Lantz](http://www-cs-students.stanford.edu/~rlantz/) ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10741631/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5690311&srcou=599158))| | &bull; [A Network in a Laptop (HotNets '10)](https://conferences.sigcomm.org/hotnets/2010/papers/a19-lantz.pdf) |
-| **Week 8** | | | |
-| Tue <br> Oct 11 | *October Break* <br> No Class | | |
-| Thu <br> Oct 13 | | | |
+| **Week 8** | **Datacenter Networks** | | |
+| Tue <br> Oct 11 | *October Break* <br> No Class | &bull; [Assignment 2](assignments/assignment2) `due Nov 01` | |
+| Thu <br> Oct 13 | Origins and Architectures | | &bull; [MapReduce](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf) and an interview with Jeff Dean and Sanjay Ghemawat on why it came into being ([video](https://youtu.be/NXCIItzkn3E)) |
 | **Week 9** | | | |
 | Tue <br> Oct 18 | Guest Lecture: TBD by [Ajay Thakur](https://www.linkedin.com/in/ajaylthakur/) | | |
 | Thu <br> Oct 20 | Guest Lecture: TBD by [Vladimir Gurevich](https://www.linkedin.com/in/vladimir-gurevich-63b887/) | | |
@@ -104,10 +104,12 @@ The goals for this course are:
 | Thu <br> Nov 24 | *Thanksgiving Holiday* <br> No Class | | |
 | **Week 15** | | | |
 | Tue <br> Nov 29 | | | |
-| Thu <br> Dec 01 | | | |
+| Thu <br> Dec 01 | Project Presentations I | | |
 | **Week 16** | | | |
 | Tue <br> Dec 06 | Guest Lecture: TBD by [Daniel Firestone](https://www.microsoft.com/en-us/research/people/fstone/) | | |
-| Thu <br> Dec 08 | | | |
+| Thu <br> Dec 08 | Project Presentations II | | |
+| **Week 17** | | | |
+| Tue <br> Dec 13 | *Final Exam* | | |
 
 ## Prerequisites
 
@@ -129,7 +131,7 @@ This course assumes that students have a basic understanding of data structures 
 
 - [Assignment 0](assignments/assignment0): Virtual networks using Mininet and ONOS `not graded`
 - [Assignment 1](assignments/assignment1): File and Message Transmission using Sockets and 3-Way Handshake `due Oct 07`
-- Assignment 2 `TBD`
+- [Assignment 2](assignments/assignment2): From Bridging to Switching with VLANs `due Nov 01`
 - Assignment 3 `TBD`
 
 ## Paper Reading and Discussion
@@ -156,7 +158,7 @@ Grades for your class participation and paper reviews will be determined based o
 There will be one midterm and a final exam based on course content (lectures, assignments, and paper readings).
 
 - Midterm Exam `on Oct 25`
-- Final Exam `TBD`
+- Final Exam `on Dec 13`
 
 > Format: in class, open book
 
