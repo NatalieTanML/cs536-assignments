@@ -1,6 +1,6 @@
 <img src="others/images/purdue-cs-logo.jpg" alt="drawing" width="450"/>
 
-# Assignment 2: From Bridging to Switching with VLANs
+# Assignment 2: From Bridging to Switching with VLANs 
 
 In [assignment1](../assignment1), you learnt how to implement and use the Socket API for sharing files and messages between two hosts. Now, you will move out of these hosts and go deeper into the actual network, where you will learn how the various network devices (bridges and switches) forward these messages (and packets) between hosts. The assignment will give you a deep dive into the internal workings of these devices to help understand how they (1) learn and become aware of the different hosts on the network and (2) forward packets to minimize the unwanted traffic floating in the network. 
 
@@ -31,7 +31,7 @@ Recall that a simple bridge broadcasts each incoming packet to all ports, except
 
 #### The learning bridge code
 
-The [`bridge.py`](assignments/assignment2/p4rt-src/bridge.py) script under the `assignments/assignment2/p4rt-src` folder implements the logic of a learning bridge. Please invest sometime going through the code to understand its various components in detail. You will be working with similar functions when implenenting your custom learning switch.
+The [`bridge.py`](assignments/assignment2/p4rt-src/bridge.py) script under the `assignments/assignment2/p4rt-src` folder implements the logic of a learning bridge. Please invest sometime going through the code to understand its various components in detail. You will be working with similar functions when implementing your custom learning switch.
 
 The most important function to look at is [`ProcPacketIn()`](assignments/assignment2/p4rt-src/bridge.py#L71) that receives and processes all packets entering the switch. There are two main stages of this fucntion:
 - **Packet parsing stage ([line 87](assignments/assignment2/p4rt-src/bridge.py#L87)).** <br>The bridge parses the ingress port, as metadata, and the Ethernet header of each incoming packet, and forwards it to the learing stage.
@@ -136,7 +136,7 @@ Again, recall that a learning switch is another optimization on top of a learnin
 
 > **INFO:** The table in a learning switch seems quite similar to that of a learning bridge; however, it's role is quite different. Rather than filtering packets belonging to the same segments in a bridge, it's used to find out the exact target port of the desintation host in the learning switch.
 
-Virtual LAN (or VLAN) is a feature that extends a learning switch to configure two or more completely seprate networks on top of a single switch or network of switches. For example, in our exmaple topology above, `h1s1`/`h1s2`, `h2s1`/`h2s2`, and `h3s1`/`h3s2` form three completely separate networks. With VLAN, these three networks can now be implemented using the same switches `s1` and `s2`, rather than having three different physical peer-to-peer links.
+Virtual LAN (or VLAN) is a feature that extends a learning switch to configure two or more completely separate networks on top of a single switch or network of switches. For example, in our exmaple topology above, `h1s1`/`h1s2`, `h2s1`/`h2s2`, and `h3s1`/`h3s2` form three completely separate networks. With VLAN, these three networks can now be implemented using the same switches `s1` and `s2`, rather than having three different physical peer-to-peer links.
 
 #### The learning switch (with VLAN) code
 
@@ -223,7 +223,7 @@ Once you have completed the script, give it a try!
 > ---
 > ### Useful hints
 > 
-> Here are some useful tips. If you are still having trouble, ask a question on [Campuswire](https://campuswire.com/p/G41B154B2) or see an instructor during office hours.
+> Here are some useful tips. If you are still having trouble, ask a question on [Campuswire](https://campuswire.com/c/G7E058110) or see an instructor during office hours.
 > - Make sure to carefully read and understand the packet formats and `PacketMetaData` header structure before starting to code. You can find detailed information on the formats of the Ethernet packet [here](https://wiki.wireshark.org/Ethernet), and VLAN [here](https://wiki.wireshark.org/VLAN). For the `PacketMetaData` header, you may find the [Packet I/O section](https://p4.org/p4-spec/p4runtime/main/P4Runtime-Spec.html#sec-packet-i_o) of the P4Runtime Specification useful. 
 > - The ingress port is located at index 0 of the metadata section of incoming packets as they don't carry a multicast id ([bridge.py: line 91](assignments/assignment2/p4rt-src/bridge.py#L91)). For the outgoing packets, the first metadata (at location 0) is the multicast id ([bridge.py: line 174](assignments/assignment2/p4rt-src/bridge.py#L174)), followed by the ingress port at location 2 ([bridge.py: line 179](assignments/assignment2/p4rt-src/bridge.py#L179)).
 > - For installing and removing multicast rules, please use the provided functions in the source file (e.g., [switch.py, line 56](assignments/assignment2/p4rt-src/switch.py#L56)).
@@ -242,10 +242,10 @@ Once you have completed the script, give it a try!
 > ---
 
 ## Submission and Grading
-Submit the assignment by uploading your modified `switch.py` script to [Brightspace]().
+Submit the assignment by uploading your modified `switch.py` script to [Brightspace](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10758161/View).
 You can submit as many times as you like before the deadline, but we will only take the last submission.
 
-We will grade your assignments by running the `switch.py` script against addiontional topologies with varying number of switches and hosts. Double-check the specifications above and perform your own tests before submitting them.
+We will grade your assignments by running the `switch.py` script against additional topologies with varying number of switches and hosts. Double-check the specifications above and perform your own tests before submitting them.
 
 Code that does not compile is graded harshly; if you want partial credit on code that doesn't compile, comment it out and make sure your file compiles!
 

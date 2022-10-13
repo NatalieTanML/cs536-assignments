@@ -109,7 +109,8 @@ The goals for this course are:
 | Tue <br> Dec 06 | Guest Lecture: TBD by [Daniel Firestone](https://www.microsoft.com/en-us/research/people/fstone/) | | |
 | Thu <br> Dec 08 | Project Presentations II | | |
 | **Week 17** | | | |
-| Tue <br> Dec 13 | *Final Exam* | | |
+| Tue <br> Dec 13 | | | |
+| Thu <br> Dec 15 | *Final Exam* | | |
 
 ## Prerequisites
 
@@ -158,7 +159,7 @@ Grades for your class participation and paper reviews will be determined based o
 There will be one midterm and a final exam based on course content (lectures, assignments, and paper readings).
 
 - Midterm Exam `on Oct 25`
-- Final Exam `on Dec 13`
+- Final Exam `on Dec 15`
 
 > Format: in class, open book
 
