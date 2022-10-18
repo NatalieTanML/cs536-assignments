@@ -103,6 +103,35 @@ def ProcPacketIn(switch_name, mcast_group_id,
 
                 #### ADD YOUR CODE HERE ... ####
 
+                # Parse Metadata
+                ingress_port_in_bytes = rep.packet.metadata[0].value
+                ingress_port = int.from_bytes(ingress_port_in_bytes, "big")
+
+                # Parse Ethernet header (source and destination MAC)
+                dst_mac_in_bytes = payload[0:6]
+                dst_mac = mac2str(dst_mac_in_bytes)
+                src_mac_in_bytes = payload[6:12]
+                src_mac = mac2str(src_mac_in_bytes)
+
+                vlan_type = int.from_bytes(payload[12:14], byteorder='big')
+                vlan_tag = b''
+
+                # print("payload", payload)
+                # print("dst mac bytes", payload[0:6])
+                # print("dst mac", dst_mac)
+                # print("payload 12 to 14 bytes", payload[12:14])
+                # print("payload 14 to 18", payload[14:18])
+                # print(ETH_TYPE_VLAN)
+                # print(vlan_type)
+                # print(vlan_type.hex())
+
+                # Check if VLAN header is present, if so parse it
+                if vlan_type == ETH_TYPE_VLAN:
+                    vlan_tag = payload[14:18]
+                    print("VLAN header", vlan_tag)
+
+                print("PacketIn: dst={0} src={1} port={2} vlan={3}".format(
+                    dst_mac, src_mac, ingress_port, vlan_tag))
 
                 ##################################################################################
                 # Packet parsing logic - Ends ####################################################
