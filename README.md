@@ -84,8 +84,8 @@ The goals for this course are:
 | **Week 8** | **Datacenter Networks** | | |
 | Tue <br> Oct 11 | *October Break* <br> No Class | &bull; [Assignment 2](assignments/assignment2) `due Nov 01` | |
 | Thu <br> Oct 13 | Origins and Architectures ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11225258/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5725746&srcou=599158)) | | &bull; [MapReduce](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf) and an interview with Jeff Dean and Sanjay Ghemawat on why it came into being ([video](https://youtu.be/NXCIItzkn3E)) |
-| **Week 9** | | | |
-| Tue <br> Oct 18 | Guest Lecture: TBD by [Ajay Thakur](https://www.linkedin.com/in/ajaylthakur/) | | |
+| **Week 9** | **5G & Programmable Networks** | | |
+| Tue <br> Oct 18 | Guest Lecture: Overview of 5G & Aether Platform by [Ajay Thakur](https://www.linkedin.com/in/ajaylthakur/) | | &bull; 5G: [3 (Basic Architecture)](https://5g.systemsapproach.org/arch.html) |
 | Thu <br> Oct 20 | Guest Lecture: TBD by [Vladimir Gurevich](https://www.linkedin.com/in/vladimir-gurevich-63b887/) | | |
 | **Week 10** | | | |
 | Tue <br> Oct 25 | *Midterm Exam* | | |
