@@ -86,10 +86,10 @@ The goals for this course are:
 | Thu <br> Oct 13 | Origins and Architectures ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11225258/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5725746&srcou=599158)) | | &bull; [MapReduce](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf) and an interview with Jeff Dean and Sanjay Ghemawat on why it came into being ([video](https://youtu.be/NXCIItzkn3E)) |
 | **Week 9** | **5G & Programmable Networks** | | |
 | Tue <br> Oct 18 | Guest Lecture: Overview of 5G & Aether Platform by [Ajay Thakur](https://www.linkedin.com/in/ajaylthakur/) ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11239277/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5738009&srcou=599158)) | | &bull; 5G: [3 (Basic Architecture)](https://5g.systemsapproach.org/arch.html) |
-| Thu <br> Oct 20 | Guest Lecture: High-speed Programmable Packet Processing and Innovation in Networking by [Vladimir Gurevich](https://www.linkedin.com/in/vladimir-gurevich-63b887/) | &bull; [Paper Review 4](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/rmt-sigcomm13-987183891?assignmentId=G94CTSmT4y9hr89rY&part=1) `due Nov 03` | &bull; SDN: [4 (Bare-Metal Switches)](https://sdn.systemsapproach.org/switch.html) |
+| Thu <br> Oct 20 | Guest Lecture: High-speed Programmable Packet Processing and Innovation in Networking by [Vladimir Gurevich](https://www.linkedin.com/in/vladimir-gurevich-63b887/) ([video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5757157&srcou=599158)) | &bull; [Paper Review 4](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/rmt-sigcomm13-987183891?assignmentId=G94CTSmT4y9hr89rY&part=1) `due Nov 03` | &bull; SDN: [4 (Bare-Metal Switches)](https://sdn.systemsapproach.org/switch.html) |
 | **Week 10** | | | |
 | Tue <br> Oct 25 | *Midterm Exam* | | |
-| Thu <br> Oct 27 | Guest Lecture: TBD by [Amedeo Sapio](https://www.linkedin.com/in/amedeosapio/) | | |
+| Thu <br> Oct 27 | | | |
 | **Week 11** | | | |
 | Tue <br> Nov 01 | | | |
 | Thu <br> Nov 03 | | | |
