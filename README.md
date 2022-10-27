@@ -87,9 +87,9 @@ The goals for this course are:
 | **Week 9** | **5G & Programmable Networks** | | |
 | Tue <br> Oct 18 | Guest Lecture: Overview of 5G & Aether Platform by [Ajay Thakur](https://www.linkedin.com/in/ajaylthakur/) ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11239277/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5738009&srcou=599158)) | | &bull; 5G: [3 (Basic Architecture)](https://5g.systemsapproach.org/arch.html) |
 | Thu <br> Oct 20 | Guest Lecture: High-speed Programmable Packet Processing and Innovation in Networking by [Vladimir Gurevich](https://www.linkedin.com/in/vladimir-gurevich-63b887/) ([video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5757157&srcou=599158)) | &bull; [Paper Review 4](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/rmt-sigcomm13-987183891?assignmentId=G94CTSmT4y9hr89rY&part=1) `due Nov 03` | &bull; SDN: [4 (Bare-Metal Switches)](https://sdn.systemsapproach.org/switch.html) |
-| **Week 10** | | | |
+| **Week 10** | **Wide Area Networks** | | |
 | Tue <br> Oct 25 | *Midterm Exam* | | |
-| Thu <br> Oct 27 | | | |
+| Thu <br> Oct 27 | Direct Networks: Intradomain Routing | | PD: [3.4 (Routing)](https://book.systemsapproach.org/internetworking/routing.html) |
 | **Week 11** | | | |
 | Tue <br> Nov 01 | | | |
 | Thu <br> Nov 03 | | | |
