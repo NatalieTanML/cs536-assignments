@@ -82,7 +82,7 @@ The goals for this course are:
 | Tue <br> Oct 04 | Flat vs Classful vs Classless Addressing ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10741630/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5690310&srcou=599158)) | | &bull; PD: [3.3.3 - 3.3.9 (Addressing, DHCP ...)](https://book.systemsapproach.org/internetworking.html) |
 | Thu <br> Oct 06 | Guest Lecture: Mininet: Fun with Networking and (Lightweight) Virtualization by [Bob Lantz](http://www-cs-students.stanford.edu/~rlantz/) ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10741631/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5690311&srcou=599158))| | &bull; [A Network in a Laptop (HotNets '10)](https://conferences.sigcomm.org/hotnets/2010/papers/a19-lantz.pdf) |
 | **Week 8** | **Datacenter Networks** | | |
-| Tue <br> Oct 11 | *October Break* <br> No Class | &bull; [Assignment 2](assignments/assignment2) `due Nov 01` | |
+| Tue <br> Oct 11 | *October Break* <br> No Class | &bull; [Assignment 2](assignments/assignment2) `due Nov 04` | |
 | Thu <br> Oct 13 | Origins and Architectures ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11225258/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5725746&srcou=599158)) | | &bull; [MapReduce](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf) and an interview with Jeff Dean and Sanjay Ghemawat on why it came into being ([video](https://youtu.be/NXCIItzkn3E)) |
 | **Week 9** | **5G & Programmable Networks** | | |
 | Tue <br> Oct 18 | Guest Lecture: Overview of 5G & Aether Platform by [Ajay Thakur](https://www.linkedin.com/in/ajaylthakur/) ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11239277/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5738009&srcou=599158)) | | &bull; 5G: [3 (Basic Architecture)](https://5g.systemsapproach.org/arch.html) |
@@ -132,7 +132,7 @@ This course assumes that students have a basic understanding of data structures 
 
 - [Assignment 0](assignments/assignment0): Virtual networks using Mininet and ONOS `not graded`
 - [Assignment 1](assignments/assignment1): File and Message Transmission using Sockets and 3-Way Handshake `due Oct 07`
-- [Assignment 2](assignments/assignment2): From Bridging to Switching with VLANs `due Nov 01`
+- [Assignment 2](assignments/assignment2): From Bridging to Switching with VLANs `due Nov 04`
 - Assignment 3 `TBD`
 
 ## Paper Reading and Discussion
