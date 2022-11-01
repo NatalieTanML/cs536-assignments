@@ -87,12 +87,12 @@ The goals for this course are:
 | **Week 9** | **5G & Programmable Networks** | | |
 | Tue <br> Oct 18 | Guest Lecture: Overview of 5G & Aether Platform by [Ajay Thakur](https://www.linkedin.com/in/ajaylthakur/) ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11239277/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5738009&srcou=599158)) | | &bull; 5G: [3 (Basic Architecture)](https://5g.systemsapproach.org/arch.html) |
 | Thu <br> Oct 20 | Guest Lecture: High-speed Programmable Packet Processing and Innovation in Networking by [Vladimir Gurevich](https://www.linkedin.com/in/vladimir-gurevich-63b887/) ([video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5757157&srcou=599158)) | &bull; [Paper Review 4](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/rmt-sigcomm13-987183891?assignmentId=G94CTSmT4y9hr89rY&part=1) `due Nov 03` | &bull; SDN: [4 (Bare-Metal Switches)](https://sdn.systemsapproach.org/switch.html) |
-| **Week 10** | **Wide Area Networks** | | |
+| **Week 10** | **Wide Area Networks I** | | |
 | Tue <br> Oct 25 | *Midterm Exam* | | |
 | Thu <br> Oct 27 | Direct Networks: Intradomain Routing ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11296986/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5786853&srcou=599158)) | | PD: [3.4 (Routing)](https://book.systemsapproach.org/internetworking/routing.html) |
-| **Week 11** | | | |
-| Tue <br> Nov 01 | | | |
-| Thu <br> Nov 03 | | | |
+| **Week 11** | **Wide Area Networks II** | | |
+| Tue <br> Nov 01 | Indirect Networks: Interdomain Routing ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11297002/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5786870&srcou=599158)) | | &bull; PD: [4.1 (Global Internet)](https://book.systemsapproach.org/scaling/global.html) |
+| Thu <br> Nov 03 | Indirect Networks: Peering and IXPs ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11297003/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5786871&srcou=599158)) | | &bull; KR: 4.6.3 (Inter-AS Routing: BGP) <br> &bull; [Where is Internet Congestion Occuring?](https://medium.com/network-insights/where-is-internet-congestion-occurring-e4333ed71168)
 | **Week 12** | | | |
 | Tue <br> Nov 08 | Guest Lecture: TBD by [Radhika Mysore](https://research.vmware.com/researchers/radhika-niranjan) | | |
 | Thu <br> Nov 10 | Guest Lecture: TBD by [Sihang Liu](https://www.sihangliu.com/) | | |
