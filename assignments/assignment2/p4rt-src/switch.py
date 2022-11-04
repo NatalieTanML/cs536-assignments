@@ -116,22 +116,18 @@ def ProcPacketIn(switch_name, mcast_group_id,
                 vlan_type = int.from_bytes(payload[12:14], byteorder='big')
                 vlan_tag = b''
 
-                # print("payload", payload)
-                # print("dst mac bytes", payload[0:6])
-                # print("dst mac", dst_mac)
                 # print("payload 12 to 14 bytes", payload[12:14])
                 # print("payload 14 to 18", payload[14:18])
-                # print(ETH_TYPE_VLAN)
-                # print(vlan_type)
-                # print(vlan_type.hex())
+                # print("eth_type_vlan", ETH_TYPE_VLAN)
+                # print("vlan_type", vlan_type)
 
                 # Check if VLAN header is present, if so parse it
                 if vlan_type == ETH_TYPE_VLAN:
                     vlan_tag = payload[14:18]
                     print("VLAN header", vlan_tag)
 
-                print("PacketIn: dst={0} src={1} port={2} vlan={3}".format(
-                    dst_mac, src_mac, ingress_port, vlan_tag))
+                print("PacketIn: dst={0} src={1} port={2} vlan_type={3} vlan_tag={4}".format(
+                    dst_mac, src_mac, ingress_port, vlan_type, vlan_tag))
 
                 ##################################################################################
                 # Packet parsing logic - Ends ####################################################
@@ -174,6 +170,8 @@ def ProcPacketIn(switch_name, mcast_group_id,
 
                 
                 #### ADD YOUR CODE HERE ... ####
+
+
 
 
                 ##################################################################################
@@ -276,6 +274,8 @@ if __name__ == '__main__':
 
     #### ADD YOUR CODE HERE ... ####
 
+    for vlan_group_id in vlan_id_to_ports_map:
+        InstallMcastGrpEntry(vlan_group_id, vlan_id_to_ports_map[vlan_group_id])
 
     ##################################################################################
     # Install VLAN Broadcast Rules - Ends ############################################
@@ -307,6 +307,8 @@ if __name__ == '__main__':
 
     #### ADD YOUR CODE HERE ... ####
 
+    for vlan_group_id in vlan_id_to_ports_map:
+        DeleteMcastGrpEntry(vlan_group_id)
 
     ##################################################################################
     # Delete VLAN Broadcast Rules - Ends #############################################
