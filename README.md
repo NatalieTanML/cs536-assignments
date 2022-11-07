@@ -93,8 +93,8 @@ The goals for this course are:
 | **Week 11** | **Wide Area Networks II** | | |
 | Tue <br> Nov 01 | Indirect Networks: Interdomain Routing ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11297002/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5786870&srcou=599158)) | | &bull; PD: [4.1 (Global Internet)](https://book.systemsapproach.org/scaling/global.html) |
 | Thu <br> Nov 03 | Indirect Networks: Peering and IXPs ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11297003/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5786871&srcou=599158)) | | &bull; KR: 4.6.3 (Inter-AS Routing: BGP) <br> &bull; [Where is Internet Congestion Occuring?](https://medium.com/network-insights/where-is-internet-congestion-occurring-e4333ed71168)
-| **Week 12** | | | |
-| Tue <br> Nov 08 | Guest Lecture: TBD by [Radhika Mysore](https://research.vmware.com/researchers/radhika-niranjan) | | |
+| **Week 12** | **Network Diagnostics and Data Persistence** | | |
+| Tue <br> Nov 08 | Guest Lecture: How to Diagnose Performance Problems in Networks by [Radhika Mysore](https://research.vmware.com/researchers/radhika-niranjan) | &bull; [Paper Review 5](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/nsdi18-firestone?assignmentId=SuzCiCYG3bmWiDY7i&part=1) `due Nov 20` | |
 | Thu <br> Nov 10 | Guest Lecture: TBD by [Sihang Liu](https://www.sihangliu.com/) | | |
 | **Week 13** | | | |
 | Tue <br> Nov 15 | | | |
@@ -152,7 +152,7 @@ Grades for your class participation and paper reviews will be determined based o
 - [Paper 2: Internet Routing Instability](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/bgpstability98-320363343?assignmentId=QtBqvnHNhZf8LWwWK&part=1) `due Sep 27`
 - [Paper 3: The Road to SDN: An Intellectual History of Programmable Networks](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/queue14-709400902?assignmentId=nCeh6yvSMs825XTjE&part=1) `due Oct 13`
 - [Paper 4: Forwarding Metamorphosis: Fast Programmable Match-Action Processing in Hardware for SDN](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/rmt-sigcomm13-987183891?assignmentId=G94CTSmT4y9hr89rY&part=1) `due Nov 03`
-- Paper 5 `TBD`
+- [Paper 5: Azure Accelerated Networking: SmartNICs in the Public Cloud](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/nsdi18-firestone?assignmentId=SuzCiCYG3bmWiDY7i&part=1) `due Nov 20`
 - Paper 6 `TBD`
 
 ## Midterm and Final Exams
@@ -224,7 +224,7 @@ The final report will be in the form of a paper written in Latex and submitted a
 
 - Team selection `due Sep 11`
 - Project proposal `due Oct 04`
-- Project report `TBD`
+- Project report/presentation `TBD`
 - Blogpost and/or YouTube video (extra credit) `TBD`
 
 ## Grading
