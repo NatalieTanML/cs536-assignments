@@ -95,7 +95,7 @@ The goals for this course are:
 | Thu <br> Nov 03 | Indirect Networks: Peering and IXPs ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11297003/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5786871&srcou=599158)) | | &bull; KR: 4.6.3 (Inter-AS Routing: BGP) <br> &bull; [Where is Internet Congestion Occuring?](https://medium.com/network-insights/where-is-internet-congestion-occurring-e4333ed71168)
 | **Week 12** | **Network Diagnostics and Data Persistence** | | |
 | Tue <br> Nov 08 | Guest Lecture: How to Diagnose Performance Problems in Networks by [Radhika Mysore](https://research.vmware.com/researchers/radhika-niranjan) ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11336332/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5822644&srcou=599158)) | &bull; [Paper Review 5](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/nsdi18-firestone?assignmentId=SuzCiCYG3bmWiDY7i&part=1) `due Nov 20` | |
-| Thu <br> Nov 10 | Guest Lecture: Accelerating Memory and Storage for Datacenter Applications by [Sihang Liu](https://www.sihangliu.com/) | | |
+| Thu <br> Nov 10 | Guest Lecture: Accelerating Memory and Storage for Datacenter Applications by [Sihang Liu](https://www.sihangliu.com/) | &bull; [Assignment 3](assignments/assignment3) `due Dec 06` | |
 | **Week 13** | | | |
 | Tue <br> Nov 15 | | | |
 | Thu <br> Nov 17 | Guest Lecture: TBD by [Mihai Budiu](https://research.vmware.com/researchers/mihai-budiu) | | |
@@ -133,7 +133,7 @@ This course assumes that students have a basic understanding of data structures 
 - [Assignment 0](assignments/assignment0): Virtual networks using Mininet and ONOS `not graded`
 - [Assignment 1](assignments/assignment1): File and Message Transmission using Sockets and 3-Way Handshake `due Oct 07`
 - [Assignment 2](assignments/assignment2): From Bridging to Switching with VLANs `due Nov 04`
-- Assignment 3 `TBD`
+- [Assignment 3](assignments/assignment3): From Bridging to Switching using P4's Match-Action Tables (MATs) `due Dec 06`
 
 ## Paper Reading and Discussion
 
