@@ -29,7 +29,7 @@ This assignment builds on [assignment0](../assignment0), so please ensure that y
 
 ### Part B: A walkthrough of a learning bridge
 
-Before imlpementing a learning switch in P4, let's take a walkthrough of the provided codebase using learning bridge as an exmaple. 
+Before implementing a learning switch in P4, let's take a walkthrough of the provided codebase using learning bridge as an exmaple. 
 
 Recall that a simple bridge broadcasts each incoming packet to all ports, except the ingress port. A learning bridge optimizes on this simple bridge by dropping all packets that belong to the same segment. For example, in the topology earlier, if `h1s1` is communicating with `h2s1`, the switch `s2` will drop any such packets arrivng on its port connected to `s1`. It will do so, by maintaining a table that maps the source Ethernet address to the ingress port for each packet it sees. Then, for later packets, the switch looks up the table using their desitnation Ethernet address: if the port found is same as ingress port of the incoming packets, indicating that the desitnation resides on the same port the packets came in from, the switch drops such packets; otherwise, it broadcasts them as usual.
 
@@ -37,11 +37,11 @@ Recall that a simple bridge broadcasts each incoming packet to all ports, except
 
 Previously, in [assignment2](../assignment2), the [`bridge.py`](assignments/assignment2/p4rt-src/bridge.py) script was implementing the entire logic of a learning bridge, including the table for filtering same-segment packets. Whereas, the [`bridge.p4`](assignments/assignment2/p4-src/bridge.p4) code was simply forwarding all incoming traffic from hosts to the Python runtime and traffic from the runtime to the hosts---it wasn't bridging the packets, itself.
 
-This time, however, if you look at the [`bridge.p4`](assignments/assignment3/p4-src/bridge.p4) code under the `assignments/assignment3/p4-src` folder, it implements a table [`bridge_table`](assignments/assignment3/p4-src/bridge.p4#L102) that matches the destination Ethernet address and ingress port of the arriving packet. A successful match indicates that the desintation host resides on the same port as the source host, and the bridge should therefore drop the packet. To do so, when broadcasting packets to egress ports, the bridge sends a copy of the packet to the Python runtime (or controller), [`bridge.py`](assignments/assignment3/p4rt-src/bridge.py). The controller learns the source Ethernet address and ingress port of the packet and installs a rule in `bridge_table` with a `drop` action. Next time, whenever the destination address and ingress port of a packet matches the table entry, it's dropped by the bridge.
+This time, however, if you look at the [`bridge.p4`](assignments/assignment3/p4-src/bridge.p4) code under the `assignments/assignment3/p4-src` folder, it implements a table [`bridge_table`](assignments/assignment3/p4-src/bridge.p4#L102) that matches the destination Ethernet address and ingress port of the arriving packet. A successful match indicates that the destination host resides on the same port as the source host, and the bridge should therefore drop the packet. To do so, when broadcasting packets to egress ports, the bridge sends a copy of the packet to the Python runtime (or controller), [`bridge.py`](assignments/assignment3/p4rt-src/bridge.py). The controller learns the source Ethernet address and ingress port of the packet and installs a rule in `bridge_table` with a `drop` action. Next time, whenever the destination address and ingress port of a packet matches the table entry, it's dropped by the bridge.
 
 > **NOTE:** Pay close attention to which Ethernet address is being used for learning and forwarding. When learning, the controller installs a flow rule with packet's source Ethernet address [`line 105`](assignments/assignment3/p4rt-src/bridge.py#L105). However, when forwarding, the bridge uses the packet's destination Ethernet address for lookup [`line 104`](assignments/assignment3/p4-src/bridge.p4#L104).
 
-Please invest sometime going through the [`bridge.p4`](assignments/assignment3/p4-src/bridge.p4) and [`bridge.py`](assignments/assignment3/p4rt-src/bridge.py) code to understand their various components in detail. You will be working with similar functions when implenenting your custom learning switch.
+Please invest sometime going through the [`bridge.p4`](assignments/assignment3/p4-src/bridge.p4) and [`bridge.py`](assignments/assignment3/p4rt-src/bridge.py) code to understand their various components in detail. You will be working with similar functions when implementing your custom learning switch.
 
 - **Bridging in P4** <br>The P4 code has the following main components:
   - **Header declarations, [`line 38`](assignments/assignment3/p4-src/bridge.p4#L38).** Defines the Ethernet and PacketIn header structures used by the bridge.
@@ -141,11 +141,11 @@ To see all this in action, please give it a try yourself!
 
 Now, let's jump into the most interesting part of the assignment, which is to build your own custom layer-2 learning switch with VLAN support using P4. 
 
-Again, recall that a learning switch is another optimization on top of a learning bridge. Instead of filtering packets belonging to the same segments, a layer-2 switch learns and maintains information about the ports to which the different hosts are connected to. And, whenever a packet comes in for a particular host, rather than blindly broadcasting packets, the switch instead looks up the stored information and forwards the packet directly on a port leading to the desintation host. The switch gradually learns about the existence of various hosts connected on the network by intercepting ARP packets and maintaining a table that maps source Ethernet addresses to ingress ports.
+Again, recall that a learning switch is another optimization on top of a learning bridge. Instead of filtering packets belonging to the same segments, a layer-2 switch learns and maintains information about the ports to which the different hosts are connected to. And, whenever a packet comes in for a particular host, rather than blindly broadcasting packets, the switch instead looks up the stored information and forwards the packet directly on a port leading to the destination host. The switch gradually learns about the existence of various hosts connected on the network by intercepting ARP packets and maintaining a table that maps source Ethernet addresses to ingress ports.
 
-> **INFO:** The table in a learning switch seems quite similar to that of a learning bridge; however, it's role is quite different. Rather than filtering packets belonging to the same segments in a bridge, it's used to find out the exact target port of the desintation host in the learning switch.
+> **INFO:** The table in a learning switch seems quite similar to that of a learning bridge; however, it's role is quite different. Rather than filtering packets belonging to the same segments in a bridge, it's used to find out the exact target port of the destination host in the learning switch.
 
-Virtual LAN (or VLAN) is a feature that extends a learning switch to configure two or more completely seprate networks on top of a single switch or network of switches. For example, in our exmaple topology above, `h1s1`/`h1s2`, `h2s1`/`h2s2`, and `h3s1`/`h3s2` form three completely separate networks. With VLAN, these three networks can now be implemented using the same switches `s1` and `s2`, rather than having three different physical peer-to-peer links.
+Virtual LAN (or VLAN) is a feature that extends a learning switch to configure two or more completely separate networks on top of a single switch or network of switches. For example, in our example topology above, `h1s1`/`h1s2`, `h2s1`/`h2s2`, and `h3s1`/`h3s2` form three completely separate networks. With VLAN, these three networks can now be implemented using the same switches `s1` and `s2`, rather than having three different physical peer-to-peer links.
 
 #### The learning switch (with VLAN) code
 
@@ -244,7 +244,7 @@ Once you have completed the script, give it a try!
 > ---
 > ### Useful hints
 > 
-> Here are some useful tips. If you are still having trouble, ask a question on [Campuswire](https://campuswire.com/p/G41B154B2) or see an instructor during office hours.
+> Here are some useful tips. If you are still having trouble, ask a question on [Campuswire](https://campuswire.com/c/G7E058110) or see an instructor during office hours.
 > - There are various constants in the scaffolding code. Use them. If they are not defined in a particular file, you don't need them. If you are not using one of them, either you have hard-coded a value, which is bad style, or you are very likely doing something wrong.
 > - Use the `ip address` or `hostname -I` commands from within a Mininet host to find the IP address of that host.
 
@@ -262,7 +262,7 @@ Once you have completed the script, give it a try!
 Submit the assignment by uploading your modified `switch.p4` code and `switch.py` script to [Brightspace](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11340554/View).
 You can submit as many times as you like before the deadline, but we will only take the last submission.
 
-We will grade your assignments by running the `switch.p4` code and `switch.py` script against addiontional topologies with varying number of switches and hosts. Double-check the specifications above and perform your own tests before submitting them.
+We will grade your assignments by running the `switch.p4` code and `switch.py` script against additional topologies with varying number of switches and hosts. Double-check the specifications above and perform your own tests before submitting them.
 
 Code that does not compile is graded harshly; if you want partial credit on code that doesn't compile, comment it out and make sure your file compiles!
 
