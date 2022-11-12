@@ -84,7 +84,7 @@ The goals for this course are:
 | **Week 8** | **Datacenter Networks** | | |
 | Tue <br> Oct 11 | *October Break* <br> No Class | &bull; [Assignment 2](assignments/assignment2) `due Nov 04` | |
 | Thu <br> Oct 13 | Origins and Architectures ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11225258/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5725746&srcou=599158)) | | &bull; [MapReduce](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf) and an interview with Jeff Dean and Sanjay Ghemawat on why it came into being ([video](https://youtu.be/NXCIItzkn3E)) |
-| **Week 9** | **5G & Programmable Networks** | | |
+| **Week 9** | **5G & Programmable Networks I** | | |
 | Tue <br> Oct 18 | Guest Lecture: Overview of 5G & Aether Platform by [Ajay Thakur](https://www.linkedin.com/in/ajaylthakur/) ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11239277/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5738009&srcou=599158)) | | &bull; 5G: [3 (Basic Architecture)](https://5g.systemsapproach.org/arch.html) |
 | Thu <br> Oct 20 | Guest Lecture: High-speed Programmable Packet Processing and Innovation in Networking by [Vladimir Gurevich](https://www.linkedin.com/in/vladimir-gurevich-63b887/) ([video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5757157&srcou=599158)) | &bull; [Paper Review 4](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/rmt-sigcomm13-987183891?assignmentId=G94CTSmT4y9hr89rY&part=1) `due Nov 03` | &bull; SDN: [4 (Bare-Metal Switches)](https://sdn.systemsapproach.org/switch.html) |
 | **Week 10** | **Wide Area Networks I** | | |
@@ -96,8 +96,8 @@ The goals for this course are:
 | **Week 12** | **Network Diagnostics and Data Persistence** | | |
 | Tue <br> Nov 08 | Guest Lecture: How to Diagnose Performance Problems in Networks by [Radhika Mysore](https://research.vmware.com/researchers/radhika-niranjan) ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11336332/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5822644&srcou=599158)) | &bull; [Paper Review 5](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/nsdi18-firestone?assignmentId=SuzCiCYG3bmWiDY7i&part=1) `due Nov 20` | |
 | Thu <br> Nov 10 | Guest Lecture: Accelerating Memory and Storage for Datacenter Applications by [Sihang Liu](https://www.sihangliu.com/) | &bull; [Assignment 3](assignments/assignment3) `due Dec 06` | |
-| **Week 13** | | | |
-| Tue <br> Nov 15 | | | |
+| **Week 13** | **5G & Programmable Networks II** | | |
+| Tue <br> Nov 15 | Router Design: Lookup and Scheduling ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11347673/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5833290&srcou=599158)) | | &bull; KR: 4.3 (What's Inside a Router?) <br> &bull; GV: [10 (Exact-Match Lookups), 11 (Prefix-Match Lookups), 13 (Switching)](https://purdue.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma99169139049601081&context=L&vid=01PURDUE_PUWL:PURDUE&lang=en&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=Everything&query=any,contains,george%20varghese) (Optional) |
 | Thu <br> Nov 17 | Guest Lecture: TBD by [Mihai Budiu](https://research.vmware.com/researchers/mihai-budiu) | | |
 | **Week 14** | | | |
 | Tue <br> Nov 22 | | | |
