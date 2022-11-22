@@ -98,9 +98,9 @@ The goals for this course are:
 | Thu <br> Nov 10 | Guest Lecture: Accelerating Memory and Storage for Datacenter Applications by [Sihang Liu](https://www.sihangliu.com/) ([video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5833292&srcou=599158)) | &bull; [Assignment 3](assignments/assignment3) `due Dec 06` | |
 | **Week 13** | **5G & Programmable Networks II** | | |
 | Tue <br> Nov 15 | Router Design: Lookup and Scheduling ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11347673/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5833290&srcou=599158)) | | &bull; KR: 4.3 (What's Inside a Router?) <br> &bull; GV: [10 (Exact-Match Lookups), 11 (Prefix-Match Lookups), 13 (Switching)](https://purdue.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma99169139049601081&context=L&vid=01PURDUE_PUWL:PURDUE&lang=en&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=Everything&query=any,contains,george%20varghese) (Optional) |
-| Thu <br> Nov 17 | Guest Lecture: P4 Language and Compiler Design by [Mihai Budiu](https://research.vmware.com/researchers/mihai-budiu) | | |
-| **Week 14** | | | |
-| Tue <br> Nov 22 | | | |
+| Thu <br> Nov 17 | Guest Lecture: P4 Language and Compiler Design by [Mihai Budiu](https://research.vmware.com/researchers/mihai-budiu) ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11387570/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5869026&srcou=599158)) | | |
+| **Week 14** | **Resource Allocation** | | |
+| Tue <br> Nov 22 | Transport: Congestion Control | | &bull; PD: [6.1 - 6.4 (Issues, Queuing, TCP, ...)](https://book.systemsapproach.org/congestion.html) |
 | Thu <br> Nov 24 | *Thanksgiving Holiday* <br> No Class | | |
 | **Week 15** | | | |
 | Tue <br> Nov 29 | | | |
@@ -159,7 +159,7 @@ Grades for your class participation and paper reviews will be determined based o
 There will be one midterm and a final exam based on course content (lectures, assignments, and paper readings).
 
 - Midterm Exam `on Oct 25`
-- Final Exam `on Dec 15`
+- Final Exam `on Dec 12`
 
 > Format: in class, open book
 
@@ -224,8 +224,8 @@ The final report will be in the form of a paper written in Latex and submitted a
 
 - Team selection `due Sep 11`
 - Project proposal `due Oct 04`
-- Project report/presentation `TBD`
-- Blogpost and/or YouTube video (extra credit) `TBD`
+- Project report `due Dec 09` & presentations `on Dec 01, 08`
+- Blogpost and/or YouTube video (extra credit) `due Dec 09`
 
 ## Grading
 
