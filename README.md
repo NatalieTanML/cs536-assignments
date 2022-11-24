@@ -100,16 +100,15 @@ The goals for this course are:
 | Tue <br> Nov 15 | Router Design: Lookup and Scheduling ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11347673/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5833290&srcou=599158)) | | &bull; KR: 4.3 (What's Inside a Router?) <br> &bull; GV: [10 (Exact-Match Lookups), 11 (Prefix-Match Lookups), 13 (Switching)](https://purdue.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma99169139049601081&context=L&vid=01PURDUE_PUWL:PURDUE&lang=en&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=Everything&query=any,contains,george%20varghese) (Optional) |
 | Thu <br> Nov 17 | Guest Lecture: P4 Language and Compiler Design by [Mihai Budiu](https://research.vmware.com/researchers/mihai-budiu) ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11387570/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5869026&srcou=599158)) | | |
 | **Week 14** | **Resource Allocation** | | |
-| Tue <br> Nov 22 | Transport: Congestion Control ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11395879/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5874761&srcou=599158)) | | &bull; PD: [6.1 - 6.4 (Issues, Queuing, TCP, ...)](https://book.systemsapproach.org/congestion.html) |
+| Tue <br> Nov 22 | Transport: Congestion Control ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11395879/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5874761&srcou=599158)) | &bull; [Paper Review 6](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/acmdl19-289?assignmentId=yXXxT2cZQPuPnnyJR&part=1) `due Dec 09` | &bull; PD: [6.1 - 6.4 (Issues, Queuing, TCP, ...)](https://book.systemsapproach.org/congestion.html) |
 | Thu <br> Nov 24 | *Thanksgiving Holiday* <br> No Class | | |
-| **Week 15** | | | |
-| Tue <br> Nov 29 | | | |
-| Thu <br> Dec 01 | Project Presentations I | | |
-| **Week 16** | | | |
+| **Week 15** | **Project Presentations I** | | |
+| Tue <br> Nov 29 | *Final Review* | | |
+| Thu <br> Dec 01 | Project Presentations | | |
+| **Week 16** | **Project Presentations II** | | |
 | Tue <br> Dec 06 | Guest Lecture: TBD by [Daniel Firestone](https://www.microsoft.com/en-us/research/people/fstone/) | | |
-| Thu <br> Dec 08 | Project Presentations II | | |
-| **Week 17** | | | |
-| Tue <br> Dec 13 | | | |
+| Thu <br> Dec 08 | Project Presentations | | |
+| **Week 17** |**Exam Week** | | |
 | Thu <br> Dec 15 | *Final Exam* | | |
 
 ## Prerequisites
@@ -153,15 +152,17 @@ Grades for your class participation and paper reviews will be determined based o
 - [Paper 3: The Road to SDN: An Intellectual History of Programmable Networks](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/queue14-709400902?assignmentId=nCeh6yvSMs825XTjE&part=1) `due Oct 13`
 - [Paper 4: Forwarding Metamorphosis: Fast Programmable Match-Action Processing in Hardware for SDN](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/rmt-sigcomm13-987183891?assignmentId=G94CTSmT4y9hr89rY&part=1) `due Nov 03`
 - [Paper 5: Azure Accelerated Networking: SmartNICs in the Public Cloud](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/nsdi18-firestone?assignmentId=SuzCiCYG3bmWiDY7i&part=1) `due Nov 20`
-- Paper 6 `TBD`
+- [Paper 6: Democratizing the Network Edge](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/acmdl19-289?assignmentId=yXXxT2cZQPuPnnyJR&part=1) `due Dec 09`
+
+> **Note:** We will pick the top-5 scoring papers for each student.
 
 ## Midterm and Final Exams
 There will be one midterm and a final exam based on course content (lectures, assignments, and paper readings).
 
 - Midterm Exam `on Oct 25`
-- Final Exam `on Dec 12`
+- Final Exam `on Dec 15`
 
-> Format: in class, open book
+> **Format:** in class, open book
 
 ## Course Project
 
@@ -230,10 +231,10 @@ The final report will be in the form of a paper written in Latex and submitted a
 ## Grading
 
 - Class participation: 5%
-- Programming assignments: 10%
+- Programming assignments: 20%
 - Paper questions and summaries: 10%
-- Midterm exam: 15%
-- Final exam: 30%
+- Midterm exam: 10%
+- Final exam: 25%
 - Course project: 30% (and 5% extra credit for video/demo posted on YouTube.)
 
 ## Policies
