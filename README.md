@@ -103,7 +103,7 @@ The goals for this course are:
 | Tue <br> Nov 22 | Transport: Congestion Control ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11395879/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5874761&srcou=599158)) | &bull; [Paper Review 6](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/acmdl19-289?assignmentId=yXXxT2cZQPuPnnyJR&part=1) `due Dec 09` | &bull; PD: [6.1 - 6.4 (Issues, Queuing, TCP, ...)](https://book.systemsapproach.org/congestion.html) |
 | Thu <br> Nov 24 | *Thanksgiving Holiday* <br> No Class | | |
 | **Week 15** | **Project Presentations I** | | |
-| Tue <br> Nov 29 | *Final Review* | | |
+| Tue <br> Nov 29 | *Final Review* ([video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5909699&srcou=599158)) | | |
 | Thu <br> Dec 01 | Project Presentations | | |
 | **Week 16** | **Project Presentations II** | | |
 | Tue <br> Dec 06 | Guest Lecture: TBD by [Daniel Firestone](https://www.microsoft.com/en-us/research/people/fstone/) | | |
