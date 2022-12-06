@@ -129,8 +129,11 @@ def ProcPacketIn(switch_name, logs_dir, num_logs_threshold):
 
 
                         #### ADD YOUR CODE HERE ... ####
-                        pass
-
+                        table_entry = p4sh.TableEntry("MyIngress.switch_table")
+                        table_entry.match["hdr.ethernet.dstAddr"] = src_mac
+                        table_entry.match["metadata.vid"] = str(vlan_id) if eth_type == ETH_TYPE_VLAN else 0
+                        table_entry.action["MyIngress.forward"] = { "port": str(egress_port) }
+                        table_entry.insert()
 
                         ##################################################################################
                         # Learning Switch Logic - Ends ###################################################
@@ -217,8 +220,12 @@ if __name__ == '__main__':
 
 
         #### ADD YOUR CODE HERE ... ####
-        pass
-
+        for vlan_id, ports in vlan_id_to_ports_map.items():
+            for port in ports:
+                table_entry = p4sh.TableEntry("MyEgress.vlan_table")(action="MyEgress.noop")
+                table_entry.match["standard_metadata.egress_port"] = str(port)
+                table_entry.match["meta.vid"] = str(vlan_id)
+                table_entry.insert()
 
         ##################################################################################
         # Install VLAN Rules - Ends ######################################################
@@ -261,7 +268,12 @@ if __name__ == '__main__':
 
 
         #### ADD YOUR CODE HERE ... ####
-        pass
+        for vlan_id, ports in vlan_id_to_ports_map.items():
+            for port in ports:
+                table_entry = p4sh.TableEntry("MyEgress.vlan_table")(action="MyEgress.noop")
+                table_entry.match["standard_metadata.egress_port"] = str(port)
+                table_entry.match["meta.vid"] = str(vlan_id)
+                table_entry.delete()
 
 
         ##################################################################################

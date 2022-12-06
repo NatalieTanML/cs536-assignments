@@ -142,7 +142,18 @@ control MyIngress(inout headers hdr,
     
 
     /**** ADD YOUR CODE HERE ... ****/
-    
+    table switch_table {
+        key = {
+            hdr.ethernet.dstAddr: exact;
+            meta.vid: exact;
+        }
+        actions = {
+            forward;
+            flood;
+        }
+        size = 1024;
+        default_action = flood();
+    }
 
     /**********************************************************************/
     /* Switch Table Logic - Ends ****************************************/
@@ -168,7 +179,10 @@ control MyIngress(inout headers hdr,
 
 
         /**** ADD YOUR CODE HERE ... ****/
-
+        if (meta.etherType == ETH_TYPE_ARP)
+            flood();
+        else
+            switch_table.apply();
         
         /**********************************************************************/
         /* Ingress Apply Logic - Ends *****************************************/
@@ -216,7 +230,18 @@ control MyEgress(inout headers hdr,
     
 
     /**** ADD YOUR CODE HERE ... ****/
-
+    table vlan_table {
+        key = {
+            standard_metadata.egress_port: exact;
+            meta.vid: exact;
+        }
+        actions = {
+            noop;
+            drop;
+        }
+        size = 1024;
+        default_action = drop();
+    }
 
     /**********************************************************************/
     /* Switch Table Logic - Ends ****************************************/
@@ -245,7 +270,14 @@ control MyEgress(inout headers hdr,
 
 
         /**** ADD YOUR CODE HERE ... ****/
+        if (standard_metadata.egress_port == standard_metadata.ingress_port)
+            drop();
 
+        if (standard_metadata.egress_port == CPU_PORT)
+            to_controller();
+        
+        if (hdr.ethernet.etherType == ETH_TYPE_VLAN)
+            vlan_table.apply();
         
         /**********************************************************************/
         /* Egress Apply Logic - Ends ******************************************/
