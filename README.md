@@ -76,40 +76,39 @@ The goals for this course are:
 | Tue <br> Sep 20 | Direct Links: The Wire Interface ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10674181/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5621207&srcou=599158)) | | &bull; PD: [2.1 - 2.6 (Technology, Encoding, Framing, ...)](https://book.systemsapproach.org/direct.html) |
 | Thu <br> Sep 22 | Indirect Links: Internetworking (L2/L3) ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10682082/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5628928&srcou=599158)) | | &bull; PD: [3 (Internetworking)](https://book.systemsapproach.org/internetworking.html) |
 | **Week 6** | **Software Defined Networks** | | |
-| Tue <br> Sep 27 | Network Abstractions and Virtualization ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10707462/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5655913&srcou=599158)) | | &bull; SDN: [3: Basic Architecture](https://sdn.systemsapproach.org/arch.html) |
+| Tue <br> Sep 27 | Network Abstractions and Virtualization ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10707462/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5655913&srcou=599158)) | | &bull; SDN: [3 (Basic Architecture)](https://sdn.systemsapproach.org/arch.html) |
 | Thu <br> Sep 29 | Guest Lecture: Open vSwitch Design and the Future by [Ben Pfaff](https://research.vmware.com/researchers/ben-pfaff) ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10741628/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5655915&srcou=599158)) | &bull; [Paper Review 3](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/queue14-709400902?assignmentId=nCeh6yvSMs825XTjE&part=1) `due Oct 13` | &bull; [Open vSwitch (NSDI '15)](https://www.usenix.org/system/files/conference/nsdi15/nsdi15-paper-pfaff.pdf) |
 | **Week 7** | **Network Addressing and Configuration** | | |
 | Tue <br> Oct 04 | Flat vs Classful vs Classless Addressing ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10741630/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5690310&srcou=599158)) | | &bull; PD: [3.3.3 - 3.3.9 (Addressing, DHCP ...)](https://book.systemsapproach.org/internetworking.html) |
 | Thu <br> Oct 06 | Guest Lecture: Mininet: Fun with Networking and (Lightweight) Virtualization by [Bob Lantz](http://www-cs-students.stanford.edu/~rlantz/) ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/10741631/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5690311&srcou=599158))| | &bull; [A Network in a Laptop (HotNets '10)](https://conferences.sigcomm.org/hotnets/2010/papers/a19-lantz.pdf) |
 | **Week 8** | **Datacenter Networks** | | |
-| Tue <br> Oct 11 | *October Break* <br> No Class | &bull; [Assignment 2](assignments/assignment2) `due Nov 01` | |
+| Tue <br> Oct 11 | *October Break* <br> No Class | &bull; [Assignment 2](assignments/assignment2) `due Nov 04` | |
 | Thu <br> Oct 13 | Origins and Architectures ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11225258/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5725746&srcou=599158)) | | &bull; [MapReduce](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf) and an interview with Jeff Dean and Sanjay Ghemawat on why it came into being ([video](https://youtu.be/NXCIItzkn3E)) |
-| **Week 9** | | | |
-| Tue <br> Oct 18 | Guest Lecture: Overview of 5G & Aether Platform by [Ajay Thakur](https://www.linkedin.com/in/ajaylthakur/) | | &bull; 5G: [3 (Basic Architecture)](https://5g.systemsapproach.org/arch.html) |
-| Thu <br> Oct 20 | Guest Lecture: TBD by [Vladimir Gurevich](https://www.linkedin.com/in/vladimir-gurevich-63b887/) | | |
-| **Week 10** | | | |
+| **Week 9** | **5G & Programmable Networks I** | | |
+| Tue <br> Oct 18 | Guest Lecture: Overview of 5G & Aether Platform by [Ajay Thakur](https://www.linkedin.com/in/ajaylthakur/) ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11239277/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5738009&srcou=599158)) | | &bull; 5G: [3 (Basic Architecture)](https://5g.systemsapproach.org/arch.html) |
+| Thu <br> Oct 20 | Guest Lecture: High-speed Programmable Packet Processing and Innovation in Networking by [Vladimir Gurevich](https://www.linkedin.com/in/vladimir-gurevich-63b887/) ([video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5757157&srcou=599158)) | &bull; [Paper Review 4](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/rmt-sigcomm13-987183891?assignmentId=G94CTSmT4y9hr89rY&part=1) `due Nov 03` | &bull; SDN: [4 (Bare-Metal Switches)](https://sdn.systemsapproach.org/switch.html) |
+| **Week 10** | **Wide Area Networks I** | | |
 | Tue <br> Oct 25 | *Midterm Exam* | | |
-| Thu <br> Oct 27 | Guest Lecture: TBD by [Amedeo Sapio](https://www.linkedin.com/in/amedeosapio/) | | |
-| **Week 11** | | | |
-| Tue <br> Nov 01 | | | |
-| Thu <br> Nov 03 | | | |
-| **Week 12** | | | |
-| Tue <br> Nov 08 | Guest Lecture: TBD by [Radhika Mysore](https://research.vmware.com/researchers/radhika-niranjan) | | |
-| Thu <br> Nov 10 | Guest Lecture: TBD by [Sihang Liu](https://www.sihangliu.com/) | | |
-| **Week 13** | | | |
-| Tue <br> Nov 15 | | | |
-| Thu <br> Nov 17 | Guest Lecture: TBD by [Mihai Budiu](https://research.vmware.com/researchers/mihai-budiu) | | |
-| **Week 14** | | | |
-| Tue <br> Nov 22 | | | |
+| Thu <br> Oct 27 | Direct Networks: Intradomain Routing ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11296986/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5786853&srcou=599158)) | | PD: [3.4 (Routing)](https://book.systemsapproach.org/internetworking/routing.html) |
+| **Week 11** | **Wide Area Networks II** | | |
+| Tue <br> Nov 01 | Indirect Networks: Interdomain Routing ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11297002/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5786870&srcou=599158)) | | &bull; PD: [4.1 (Global Internet)](https://book.systemsapproach.org/scaling/global.html) |
+| Thu <br> Nov 03 | Indirect Networks: Peering and IXPs ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11297003/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5786871&srcou=599158)) | | &bull; KR: 4.6.3 (Inter-AS Routing: BGP) <br> &bull; [Where is Internet Congestion Occuring?](https://medium.com/network-insights/where-is-internet-congestion-occurring-e4333ed71168)
+| **Week 12** | **Network Diagnostics and Data Persistence** | | |
+| Tue <br> Nov 08 | Guest Lecture: How to Diagnose Performance Problems in Networks by [Radhika Mysore](https://research.vmware.com/researchers/radhika-niranjan) ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11336332/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5822644&srcou=599158)) | &bull; [Paper Review 5](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/nsdi18-firestone?assignmentId=SuzCiCYG3bmWiDY7i&part=1) `due Nov 20` | |
+| Thu <br> Nov 10 | Guest Lecture: Accelerating Memory and Storage for Datacenter Applications by [Sihang Liu](https://www.sihangliu.com/) ([video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5833292&srcou=599158)) | &bull; [Assignment 3](assignments/assignment3) `due Dec 06` | |
+| **Week 13** | **5G & Programmable Networks II** | | |
+| Tue <br> Nov 15 | Router Design: Lookup and Scheduling ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11347673/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5833290&srcou=599158)) | | &bull; KR: 4.3 (What's Inside a Router?) <br> &bull; GV: [10 (Exact-Match Lookups), 11 (Prefix-Match Lookups), 13 (Switching)](https://purdue.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma99169139049601081&context=L&vid=01PURDUE_PUWL:PURDUE&lang=en&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=Everything&query=any,contains,george%20varghese) (Optional) |
+| Thu <br> Nov 17 | Guest Lecture: P4 Language and Compiler Design by [Mihai Budiu](https://research.vmware.com/researchers/mihai-budiu) ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11387570/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5869026&srcou=599158)) | | |
+| **Week 14** | **Resource Allocation** | | |
+| Tue <br> Nov 22 | Transport: Congestion Control ([ppt](https://purdue.brightspace.com/d2l/le/content/599158/viewContent/11395879/View), [video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5874761&srcou=599158)) | &bull; [Paper Review 6](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/acmdl19-289?assignmentId=yXXxT2cZQPuPnnyJR&part=1) `due Dec 09` | &bull; PD: [6.1 - 6.4 (Issues, Queuing, TCP, ...)](https://book.systemsapproach.org/congestion.html) |
 | Thu <br> Nov 24 | *Thanksgiving Holiday* <br> No Class | | |
-| **Week 15** | | | |
-| Tue <br> Nov 29 | | | |
-| Thu <br> Dec 01 | Project Presentations I | | |
-| **Week 16** | | | |
+| **Week 15** | **Project Presentations I** | | |
+| Tue <br> Nov 29 | *Final Review* ([video](https://purdue.brightspace.com/d2l/common/dialogs/quickLink/quickLink.d2l?ou=599158&type=lti&rcode=354644E0-4CD8-419D-A32F-4E78D8778E5C-5909699&srcou=599158)) | | |
+| Thu <br> Dec 01 | Project Presentations | | |
+| **Week 16** | **Project Presentations II** | | |
 | Tue <br> Dec 06 | Guest Lecture: TBD by [Daniel Firestone](https://www.microsoft.com/en-us/research/people/fstone/) | | |
-| Thu <br> Dec 08 | Project Presentations II | | |
-| **Week 17** | | | |
-| Tue <br> Dec 13 | | | |
+| Thu <br> Dec 08 | Project Presentations | | |
+| **Week 17** |**Exam Week** | | |
 | Thu <br> Dec 15 | *Final Exam* | | |
 
 ## Prerequisites
@@ -132,8 +131,8 @@ This course assumes that students have a basic understanding of data structures 
 
 - [Assignment 0](assignments/assignment0): Virtual networks using Mininet and ONOS `not graded`
 - [Assignment 1](assignments/assignment1): File and Message Transmission using Sockets and 3-Way Handshake `due Oct 07`
-- [Assignment 2](assignments/assignment2): From Bridging to Switching with VLANs `due Nov 01`
-- Assignment 3 `TBD`
+- [Assignment 2](assignments/assignment2): From Bridging to Switching with VLANs `due Nov 04`
+- [Assignment 3](assignments/assignment3): From Bridging to Switching using P4's Match-Action Tables (MATs) `due Dec 06`
 
 ## Paper Reading and Discussion
 
@@ -151,9 +150,11 @@ Grades for your class participation and paper reviews will be determined based o
 - [Paper 1: A Protocol for Packet Network Intercommunication](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/cerf74-717197892?assignmentId=dWgTv2F8LDcnNnAWB&part=1) `due Sep 13`
 - [Paper 2: Internet Routing Instability](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/bgpstability98-320363343?assignmentId=QtBqvnHNhZf8LWwWK&part=1) `due Sep 27`
 - [Paper 3: The Road to SDN: An Intellectual History of Programmable Networks](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/queue14-709400902?assignmentId=nCeh6yvSMs825XTjE&part=1) `due Oct 13`
-- Paper 4 `TBD`
-- Paper 5 `TBD`
-- Paper 6 `TBD`
+- [Paper 4: Forwarding Metamorphosis: Fast Programmable Match-Action Processing in Hardware for SDN](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/rmt-sigcomm13-987183891?assignmentId=G94CTSmT4y9hr89rY&part=1) `due Nov 03`
+- [Paper 5: Azure Accelerated Networking: SmartNICs in the Public Cloud](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/nsdi18-firestone?assignmentId=SuzCiCYG3bmWiDY7i&part=1) `due Nov 20`
+- [Paper 6: Democratizing the Network Edge](https://app.perusall.com/courses/fall-2022-cs-53600-le1-lec/acmdl19-289?assignmentId=yXXxT2cZQPuPnnyJR&part=1) `due Dec 09`
+
+> **Note:** We will pick the top-5 scoring papers for each student.
 
 ## Midterm and Final Exams
 There will be one midterm and a final exam based on course content (lectures, assignments, and paper readings).
@@ -161,7 +162,7 @@ There will be one midterm and a final exam based on course content (lectures, as
 - Midterm Exam `on Oct 25`
 - Final Exam `on Dec 15`
 
-> Format: in class, open book
+> **Format:** in class, open book
 
 ## Course Project
 
@@ -224,16 +225,16 @@ The final report will be in the form of a paper written in Latex and submitted a
 
 - Team selection `due Sep 11`
 - Project proposal `due Oct 04`
-- Project report `TBD`
-- Blogpost and/or YouTube video (extra credit) `TBD`
+- Project report `due Dec 09` & presentations `on Dec 01, 08`
+- Blogpost and/or YouTube video (extra credit) `due Dec 09`
 
 ## Grading
 
 - Class participation: 5%
-- Programming assignments: 10%
+- Programming assignments: 20%
 - Paper questions and summaries: 10%
-- Midterm exam: 15%
-- Final exam: 30%
+- Midterm exam: 10%
+- Final exam: 25%
 - Course project: 30% (and 5% extra credit for video/demo posted on YouTube.)
 
 ## Policies
